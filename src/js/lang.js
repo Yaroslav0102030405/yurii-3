@@ -20,31 +20,31 @@ function onClickButton2(e) {
 
 const homeTexts = {
   'my-services_title-2': {
-    ua: 'Мої послуги',
+    ua: 'Я пропоную',
     ru: 'Мои услуги',
     pl: 'Moje usługi',
     en: 'My services',
   },
   'my-services-desc-1': {
-    ua: 'Підбір офісу для оренди з ремонтом',
+    ua: 'Офіси в офісних будівлях - це бюджетні варіанти з простою та традиційною інфраструктурою',
     ru: 'Подбор офиса для аренды с ремонтом',
     pl: 'Wybór biura do wynajęcia z remontem',
     en: 'Selection of an office for rent with renovation',
   },
   'my-services-desc-2': {
-    ua: 'Підбір офісу для оренди без ремонту',
+    ua: 'Офіси в бізнес-центрах, які розташовані у ділових районах та поблизу транспортних вузлів',
     ru: 'Подбор офиса для аренды без ремонта',
     pl: 'Wybór biura do wynajęcia bez remontu',
     en: 'Selection of an office for rent without renovation',
   },
   'my-services-desc-3': {
-    ua: 'Підбір офісу для оренди з меблями',
+    ua: 'Офіси в хмарочосах Варшави, які є найбільш престижними і пропонують панорамні види на місто',
     ru: 'Подбор офиса для аренды с мебелью',
     pl: 'Wybór biura do wynajęcia z meblami',
     en: 'Selection of an office for rent with furniture',
   },
   'my-services-desc-4': {
-    ua: 'Підбір офісу для оренди без меблів',
+    ua: 'Офіси в адміністративних будівлях',
     ru: 'Подбор офиса для аренды без мебели',
     pl: 'Wybór biura do wynajęcia bez mebli',
     en: 'Selecting an office for rent without furniture',
@@ -56,7 +56,7 @@ const homeTexts = {
     en: 'Selection of an office for rent with individual renovation for the tenant',
   },
   'advantages_title-2': {
-    ua: 'Мої переваги',
+    ua: 'Мої сильні переваги',
     ru: 'Мои преимущества',
     pl: 'Moje zalety',
     en: 'My advantages',
@@ -142,7 +142,7 @@ const homeTexts = {
     en: 'Home',
   },
   'header_menu-advantages': {
-    ua: 'Переваги',
+    ua: 'Послуги',
     ru: 'Преимущества',
     pl: 'Zalety',
     en: 'Advantages',
@@ -154,7 +154,7 @@ const homeTexts = {
     en: 'About me',
   },
   'header_menu-service': {
-    ua: 'Послуги',
+    ua: 'Переваги',
     ru: 'Небоскребы',
     pl: 'Wieżowce',
     en: 'Skyscrapers',
@@ -178,7 +178,7 @@ const homeTexts = {
     en: 'Yurii Bukhtii',
   },
   'header_banner-pre-title': {
-    ua: 'Брокер з підбору офісів для оренди у Варшаві',
+    ua: 'Брокер з оренди офісів у Варшаві',
     ru: 'Брокер с подбору офисов для аренды в Варшаве',
     pl: 'Pośrednik w wyborze biur do wynajęcia w Warszawie',
     en: 'Broker for selecting offices for rent in Warsaw',
@@ -196,7 +196,7 @@ const homeTexts = {
     en: 'Or call +48 735 775 810',
   },
   about_title: {
-    ua: 'Про мене',
+    ua: 'Про цінність, яку я Надаю Клієнтам',
     ru: 'Обо мне',
     pl: 'O mnie',
     en: 'About me',
@@ -208,7 +208,7 @@ const homeTexts = {
     en: 'Hello! My name is Yurii Bukhtii',
   },
   about_description2: {
-    ua: 'Брокер з оренди комерційної нерухомості у Варшаві з досвідом 5 років. Я допомагаю іноземному бізнесу — від маленьких стартапів до великих корпорацій — знайти ідеальний офіс під оренду для введення бізнесу у Варшаві',
+    ua: 'Брокер з оренди офісів у Варшаві з досвідом 3 років. Я допомагаю іноземному бізнесу — від маленьких стартапів до великих корпорацій — знайти ідеальний офіс під оренду для введення бізнесу у Варшаві',
     ru: 'Брокер по аренде коммерческой недвижимости в Варшаве с опытом 5 лет. Я помогаю иностранному бизнесу – от маленьких стартапов до крупных корпораций – найти идеальный офис в аренду для введения бизнеса в Варшаве',
     pl: 'Pośrednik w wynajmie nieruchomości komercyjnych w Warszawie z 5-letnim doświadczeniem. Pomagam zagranicznym firmom — od małych startupów po duże korporacje — znaleźć idealne biuro do wynajęcia, aby rozpocząć działalność w Warszawie',
     en: 'Commercial real estate rental broker in Warsaw with 5 years of experience. I help foreign businesses — from small startups to large corporations — find the perfect office for rent to launch their business in Warsaw',
@@ -262,13 +262,13 @@ const homeTexts = {
   //   en: 'Didn`t find what you were looking for? Call +48 735 775 810 and I will send you more options in Telegram!',
   // },
   contacts_logo2: {
-    ua: 'Безкоштовний підбір офісів у Варшаві під ваші індивідуальні потреби',
+    ua: 'Безкоштовний пошук офісу у Варшаві під ваші індивідуальні потреби',
     ru: 'Бесплатный подбор офисов в Варшаве под ваши индивидуальные потребности',
     pl: 'Bezpłatny wybór biur w Warszawie dostosowanych do Twoich indywidualnych potrzeb',
     en: 'Free selection of offices in Warsaw to suit your individual needs',
   },
   form_title: {
-    ua: 'Залиште свої контактні дані для отримання консультації',
+    ua: 'З питань оренди офісу у Варшаві зв`язатися зі мною',
     ru: 'Оставьте свои контактные данные для получения консультации',
     pl: 'Zostaw swoje dane kontaktowe',
     en: 'Leave your contact details for a consultation',
@@ -280,13 +280,13 @@ const homeTexts = {
     en: 'Name*',
   },
   form_tel: {
-    ua: 'Номер телефону*',
-    ru: 'Номер телефона*',
+    ua: 'Телефон*',
+    ru: 'Телефон*',
     pl: 'Phone number*',
     en: 'Phone number*',
   },
   form_comment: {
-    ua: 'Коментар',
+    ua: 'Повідомлення',
     ru: 'Комментарий',
     pl: 'Comment',
     en: 'Message',
@@ -298,7 +298,7 @@ const homeTexts = {
     en: 'Send an enquiry',
   },
   form_title2: {
-    ua: 'Залиште свої контактні дані для отримання консультації',
+    ua: 'З питань оренди офісу у Варшаві зв`язатися зі мною',
     ru: 'Оставьте свои контактные данные для получения консультации',
     pl: 'Zostaw swoje dane kontaktowe',
     en: 'Leave your contact details for a consultation',
@@ -310,13 +310,13 @@ const homeTexts = {
     en: 'Name*',
   },
   form_tel2: {
-    ua: 'Номер телефону*',
-    ru: 'Номер телефона*',
+    ua: 'Телефон*',
+    ru: 'Телефон*',
     pl: 'Phone number*',
     en: 'Phone number*',
   },
   form_comment2: {
-    ua: 'Коментар',
+    ua: 'Повідомлення',
     ru: 'Комментарий',
     pl: 'Comment',
     en: 'Message',
