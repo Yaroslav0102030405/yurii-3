@@ -255,6 +255,12 @@ const homeTexts = {
     pl: 'W sumie pomogłem ponad 50 firmom znaleźć biuro do wynajęcia. Chętnie pomogę również Tobie! Skontaktuj się ze mną',
     en: 'In total, I have successfully helped over 50 companies find an office for rent. I would be happy to help you too! Contact me',
   },
+  contacts_logo3: {
+    ua: 'Шукаєте офіс у Варшаві під оренду? Звертайтеся і я знайду для Вас найкращий варіант +48 735 775 810',
+    ru: 'В общем, я успешно помог уже 40 компаниям найти офис в аренду. Буду рад помочь и вам! Обращайтесь',
+    pl: 'W sumie pomogłem ponad 50 firmom znaleźć biuro do wynajęcia. Chętnie pomogę również Tobie! Skontaktuj się ze mną',
+    en: 'In total, I have successfully helped over 50 companies find an office for rent. I would be happy to help you too! Contact me',
+  },
   // contacts_logo1: {
   //   ua: 'Не знайшли що шукали? Тоді зателефонуйте мені +48 735 775 810 і я вишлю вам в телеграм більшу кількість варіантів!',
   //   ru: 'Не нашли, что искали? Тогда позвоните мне +48 735 775 810 и я вышлю вам в телеграмм большее количество вариантов!',
