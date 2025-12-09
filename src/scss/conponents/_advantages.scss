@@ -1,6 +1,10 @@
 .advantages {
   @extend %section-padding;
   background-color: $bg-2;
+
+  @media screen and (max-width: 580px) {
+    padding-top: 40px;
+  }
 }
 
 .advantages__title {

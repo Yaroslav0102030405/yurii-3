@@ -21,27 +21,27 @@ function onClickButton2(e) {
 const homeTexts = {
   'my-services_title-2': {
     ua: 'Я пропоную',
-    ru: 'Мои услуги',
-    pl: 'Moje usługi',
-    en: 'My services',
+    ru: 'Я предлагаю',
+    pl: 'Sugeruję',
+    en: 'I suggest',
   },
   'my-services-desc-1': {
-    ua: 'Офіси в офісних будівлях - це бюджетні варіанти з простою та традиційною інфраструктурою',
-    ru: 'Подбор офиса для аренды с ремонтом',
-    pl: 'Wybór biura do wynajęcia z remontem',
-    en: 'Selection of an office for rent with renovation',
+    ua: 'Офіси в офісних будівлях - бюджетні варіанти з простою та традиційною інфраструктурою',
+    ru: 'Офисы в офисных зданиях – бюджетные варианты с простой и традиционной инфраструктурой',
+    pl: 'Biura w budynkach biurowych – ekonomiczne rozwiązania z prostą i tradycyjną infrastrukturą',
+    en: 'Offices in office buildings - budget options with simple and traditional infrastructure',
   },
   'my-services-desc-2': {
     ua: 'Офіси в бізнес-центрах, які розташовані у ділових районах та поблизу транспортних вузлів',
-    ru: 'Подбор офиса для аренды без ремонта',
-    pl: 'Wybór biura do wynajęcia bez remontu',
-    en: 'Selection of an office for rent without renovation',
+    ru: 'Офисы в бизнес-центрах, расположенных в деловых районах и вблизи транспортных узлов',
+    pl: 'Biura w centrach biznesowych zlokalizowanych w dzielnicach biznesowych i w pobliżu węzłów komunikacyjnych',
+    en: 'Offices in business centers located in business districts and near transport hubs',
   },
   'my-services-desc-3': {
     ua: 'Офіси в хмарочосах Варшави, які є найбільш престижними і пропонують панорамні види на місто',
-    ru: 'Подбор офиса для аренды с мебелью',
-    pl: 'Wybór biura do wynajęcia z meblami',
-    en: 'Selection of an office for rent with furniture',
+    ru: 'Офисы в небоскребах Варшавы, наиболее престижные и предлагающие панорамные виды на город',
+    pl: 'Biura w warszawskich wieżowcach, które są najbardziej prestiżowe i oferują panoramiczne widoki na miasto',
+    en: 'Offices in Warsaw`s skyscrapers, which are the most prestigious and offer panoramic views of the city',
   },
   'my-services-desc-4': {
     ua: 'Офіси в адміністративних будівлях',
@@ -143,9 +143,9 @@ const homeTexts = {
   },
   'header_menu-advantages': {
     ua: 'Послуги',
-    ru: 'Преимущества',
-    pl: 'Zalety',
-    en: 'Advantages',
+    ru: 'Услуги',
+    pl: 'Usługi',
+    en: 'Services',
   },
   'header_menu-about': {
     ua: 'Про мене',
@@ -155,9 +155,9 @@ const homeTexts = {
   },
   'header_menu-service': {
     ua: 'Переваги',
-    ru: 'Небоскребы',
-    pl: 'Wieżowce',
-    en: 'Skyscrapers',
+    ru: 'Преимущества',
+    pl: 'Zalety',
+    en: 'Advantages',
   },
   'header_menu-cases': {
     ua: 'Кейси',
@@ -179,9 +179,9 @@ const homeTexts = {
   },
   'header_banner-pre-title': {
     ua: 'Брокер з оренди офісів у Варшаві',
-    ru: 'Брокер с подбору офисов для аренды в Варшаве',
-    pl: 'Pośrednik w wyborze biur do wynajęcia w Warszawie',
-    en: 'Broker for selecting offices for rent in Warsaw',
+    ru: 'Брокер по аренде офисов в Варшаве',
+    pl: 'Pośrednik w wynajmie biur w Warszawie',
+    en: 'Office rental broker in Warsaw',
   },
   'header_banner-button': {
     ua: 'Безкоштовна консультація',
@@ -196,7 +196,7 @@ const homeTexts = {
     en: 'Or call +48 735 775 810',
   },
   about_title: {
-    ua: 'Про цінність, яку я Надаю Клієнтам',
+    ua: 'Про мене',
     ru: 'Обо мне',
     pl: 'O mnie',
     en: 'About me',
@@ -243,12 +243,6 @@ const homeTexts = {
     pl: 'Jestem Twoim niezawodnym partnerem w Warszawie. Jeśli chcesz, abym znalazł dla Ciebie idealne biuro, po prostu napisz lub zadzwoń do mnie +48 735 775 810',
     en: 'I am your reliable partner in Warsaw. If you are ready for me to find you the perfect office, just write or call me +48 735 775 810',
   },
-  // contacts_title: {
-  //   ua: 'Безкоштовний підбір офісних приміщень y хмарочосах Варшави під ваші індивідуальні потреби',
-  //   ru: 'Бесплатный подбор офисных помещений в небоскребах Варшавы под ваши индивидуальные нужды',
-  //   pl: 'Bezpłatny wybór powierzchni biurowej w warszawskich wieżowcach, dopasowany do Twoich indywidualnych potrzeb',
-  //   en: 'Free selection of office space in Warsaw skyscrapers to suit your individual needs',
-  // },
   contacts_logo: {
     ua: 'Загалом, я успішно допоміг вже 40 компаніям знайти офіс в оренду. Буду радий допомогти і Вам! Звертайтеся',
     ru: 'В общем, я успешно помог уже 40 компаниям найти офис в аренду. Буду рад помочь и вам! Обращайтесь',
@@ -257,16 +251,10 @@ const homeTexts = {
   },
   contacts_logo3: {
     ua: 'Шукаєте офіс у Варшаві під оренду? Звертайтеся і я знайду для Вас найкращий варіант +48 735 775 810',
-    ru: 'В общем, я успешно помог уже 40 компаниям найти офис в аренду. Буду рад помочь и вам! Обращайтесь',
-    pl: 'W sumie pomogłem ponad 50 firmom znaleźć biuro do wynajęcia. Chętnie pomogę również Tobie! Skontaktuj się ze mną',
-    en: 'In total, I have successfully helped over 50 companies find an office for rent. I would be happy to help you too! Contact me',
+    ru: 'Ищете офис в Варшаве в аренду? Обращайтесь и найду для вас лучший вариант +48 735 775 810',
+    pl: 'Szukasz biura do wynajęcia w Warszawie? Skontaktuj się ze mną, a znajdę dla Ciebie najlepszą opcję +48 735 775 810',
+    en: 'Looking for an office in Warsaw for rent? Contact me and I will find the best option for you +48 735 775 810',
   },
-  // contacts_logo1: {
-  //   ua: 'Не знайшли що шукали? Тоді зателефонуйте мені +48 735 775 810 і я вишлю вам в телеграм більшу кількість варіантів!',
-  //   ru: 'Не нашли, что искали? Тогда позвоните мне +48 735 775 810 и я вышлю вам в телеграмм большее количество вариантов!',
-  //   pl: 'Nie znalazłeś tego, czego szukałeś? Zadzwoń pod numer +48 735 775 810, a wyślę Ci więcej opcji w Telegramie!',
-  //   en: 'Didn`t find what you were looking for? Call +48 735 775 810 and I will send you more options in Telegram!',
-  // },
   contacts_logo2: {
     ua: 'Безкоштовний пошук офісу у Варшаві під ваші індивідуальні потреби',
     ru: 'Бесплатный подбор офисов в Варшаве под ваши индивидуальные потребности',
