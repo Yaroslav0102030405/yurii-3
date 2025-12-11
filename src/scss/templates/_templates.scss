@@ -35,10 +35,13 @@
 %title {
   margin-bottom: 30px;
   text-align: center;
-  color: $accent-text;
+  color: $text-color;
   // font-size: 30px;
   font-size: clamp(25px, 5.25vw, 30px);
   text-transform: uppercase;
+  // background-image: linear-gradient(280deg, #21253e, white, #e4c9a2);
+  // background-clip: text;
+  // color: transparent;
 
   @media screen and (max-width: 580px) {
     margin-bottom: 20px;

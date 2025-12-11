@@ -424,10 +424,10 @@ const homeTexts = {
     en: 'Looking for an office in Warsaw? Contact me and I will offer you the best options +48 735 775 810',
   },
   contacts_logo2: {
-    ua: 'Безкоштовний пошук офісу у Варшаві під ваші індивідуальні потреби',
-    ru: 'Бесплатный подбор офисов в Варшаве под ваши индивидуальные потребности',
-    pl: 'Bezpłatny wybór biur w Warszawie dostosowanych do Twoich indywidualnych potrzeb',
-    en: 'Free selection of offices in Warsaw to suit your individual needs',
+    ua: 'Знайду офіс у Варшаві під ваші індивідуальні потреби без комісії',
+    ru: 'Найду офис в Варшаве под ваши индивидуальные нужды без комиссии',
+    pl: 'Znajdę biuro w Warszawie pod Twoje indywidualne potrzeby bez prowizji',
+    en: 'I will find an office in Warsaw for your individual needs without commission',
   },
   form_title: {
     ua: 'З питань оренди офісу у Варшаві зв`язатися зі мною',
