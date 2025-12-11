@@ -7,8 +7,9 @@
 .about__wrap {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  align-items: center;
-  justify-items: end;
+  // align-items: center;
+  // justify-items: end;
+  place-items: end;
   gap: 30px;
   overflow-x: hidden;
 
