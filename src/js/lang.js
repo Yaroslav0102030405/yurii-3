@@ -19,164 +19,7 @@ function onClickButton2(e) {
 }
 
 const homeTexts = {
-  'my-services_title-2': {
-    ua: 'Я пропоную',
-    ru: 'Я предлагаю',
-    pl: 'Sugeruję',
-    en: 'I suggest',
-  },
-  'my-services_title-3': {
-    ua: 'Формат офісу може бути адаптований під Ваш Бізнес',
-    ru: 'Формат офиса может быть адаптирован под Ваш Бизнес',
-    pl: 'Format biura można dostosować do potrzeb Twojej firmy',
-    en: 'The office format can be adapted to your business',
-  },
-  'my-services-desc-1': {
-    ua: 'Офіси в офісних будівлях',
-    ru: 'Офисы в офисных зданиях',
-    pl: 'Biura w budynkach biurowych',
-    en: 'Offices in office buildings',
-  },
-  'my-services-title-11': {
-    ua: 'Офіс без меблів',
-    ru: 'Офис без мебели',
-    pl: 'Biuro bez mebli',
-    en: 'Office without furniture',
-  },
-  'my-services-desc-11': {
-    ua: 'Ви отримуєте приміщення без фінального оздоблення, з усіма підведеними комунікаціями. Повний простір для втілення будь-яких дизайнерських рішень',
-    ru: 'Вы получаете помещение без финальной отделки, со всеми подведенными коммуникациями. Полное пространство для воплощения любых дизайнерских решений',
-    pl: 'Dostajesz pokój bez ostatecznego wystroju, ze wszystkimi mediami podłączonymi. Pełna przestrzeń do realizacji dowolnych rozwiązań aranżacyjnych',
-    en: 'You get a room without final decoration, with all communications connected. Full space for the implementation of any design solutions',
-  },
-  'my-services-desc-2': {
-    ua: 'Офіси в бізнес-центрах',
-    ru: 'Офисы в бизнес-центрах',
-    pl: 'Biura w centrach biznesowych',
-    en: 'Offices in business centers',
-  },
-  'my-services-title-22': {
-    ua: 'Мебльований Офіс',
-    ru: 'Меблированный офис',
-    pl: 'Umeblowane biuro',
-    en: 'Furnished Office',
-  },
-  'my-services-desc-22': {
-    ua: 'Офіс вже оснащений якісними меблями (столи, стільці, системи зберігання) та, за потреби, базовою технікою (принтери, сканери)',
-    ru: 'Офис уже оснащен качественной мебелью (столы, стулья, системы хранения) и, при необходимости, базовой техникой (принтеры, сканеры)',
-    pl: 'Biuro jest już wyposażone w wysokiej jakości meble (stoły, krzesła, systemy przechowywania) oraz, w razie potrzeby, podstawowy sprzęt (drukarki, skanery)',
-    en: 'The office is already equipped with quality furniture (tables, chairs, storage systems) and, if necessary, basic equipment (printers, scanners)',
-  },
-  'my-services-desc-3': {
-    ua: 'Офіси в хмарочосах Варшави',
-    ru: 'Офисы в небоскребах Варшавы',
-    pl: 'Biura w warszawskich wieżowcach',
-    en: 'Offices in Warsaw`s skyscrapers',
-  },
-  'my-services-title-33': {
-    ua: 'Ремонт під клієнта',
-    ru: 'Ремонт под клиента',
-    pl: 'Naprawa dla klienta',
-    en: 'Repair for the client',
-  },
-  'my-services-desc-33': {
-    ua: 'Ми беремо на себе виконання індивідуального ремонту приміщення згідно з вашим технічним завданням. Ви отримуєте офіс "під ключ"',
-    ru: 'Мы берем на себя выполнение индивидуального ремонта помещения согласно вашему техническому заданию. Вы получаете офис "под ключ"',
-    pl: 'Podejmujemy się indywidualnego remontu lokalu według Państwa specyfikacji technicznej. Otrzymują Państwo biuro pod klucz',
-    en: 'We undertake individual renovation of the premises according to your technical specifications. You receive a turnkey office',
-  },
-  'my-services-desc-4': {
-    ua: 'Офіси в адміністративних будівлях',
-    ru: 'Подбор офиса для аренды без мебели',
-    pl: 'Wybór biura do wynajęcia bez mebli',
-    en: 'Selecting an office for rent without furniture',
-  },
-  'my-services-desc-5': {
-    ua: 'Підбір офісу для оренди з індивідуальним ремонтом під орендаря',
-    ru: 'Подбор офиса для аренды с индивидуальным ремонтом под арендатора',
-    pl: 'Wybór biura do wynajęcia z indywidualnym remontem dla najemcy',
-    en: 'Selection of an office for rent with individual renovation for the tenant',
-  },
-  'advantages_title-2': {
-    ua: 'Мої сильні переваги',
-    ru: 'Мои преимущества',
-    pl: 'Moje zalety',
-    en: 'My advantages',
-  },
-  'advantages_pre-title-4': {
-    ua: 'Ексклюзивна база офісів',
-    ru: 'Эксклюзивная база офисов',
-    pl: 'Ekskluzywna baza biurowa',
-    en: 'Exclusive office base',
-  },
-  'advantages_pre-title-5': {
-    ua: 'Персональний підбір',
-    ru: 'Персональный подбор',
-    pl: 'Personal selection',
-    en: 'Personal selection',
-  },
-  'advantages_pre-title-6': {
-    ua: 'Без комісії для орендаря',
-    ru: 'Без комиссии для арендатора',
-    pl: 'Brak opłat dla najemcy',
-    en: 'No fee for the tenant',
-  },
-  'portfolio-title': {
-    ua: 'Кейс який я закрив для іт компанії',
-    ru: 'Кейс который я закрыл для ит компании',
-    pl: 'Sprawa, którą zamknąłem dla firmy IT',
-    en: 'A case I closed for an IT company',
-  },
-
-  'portfolio-title-2': {
-    ua: 'Вимоги: сучасний офіс з меблями, в центрі міста в хмарочоці та з гарним виглядом з вікон на місто',
-    ru: 'Требования: современный офис с мебелью, в центре города в небоскребе и с красивым видом из окон на город',
-    pl: 'Wymagania: nowoczesne biuro z umeblowaniem, w centrum miasta, w wieżowcu, z pięknym widokiem na miasto z okien',
-    en: 'Requirements: modern office with furniture, in the city center in a skyscraper and with a beautiful view of the city from the windows',
-  },
-  'portfolio-title-3': {
-    ua: 'Я виконав усі вимоги і іт компанія залишилась задоволена!',
-    ru: 'Я выполнил все требования и компания осталась довольна!',
-    pl: 'Spełniłem wszystkie wymagania i firma była zadowolona!',
-    en: 'I fulfilled all the requirements and the company was satisfied!',
-  },
-  'portfolio-title-21': {
-    ua: 'Кейс який я закрив для YouTube каналу',
-    ru: 'Кейс который я закрыл для канала YouTube',
-    pl: 'Sprawa, którą zamknąłem dla kanału YouTube',
-    en: 'The case I closed for the YouTube channel',
-  },
-  'portfolio-title-22': {
-    ua: 'Вимоги: Теплий дизайн офісу з меблями в хмарочоці та виглядом на палац культури і науки',
-    ru: 'Требования: Теплый дизайн офиса с мебелью в небоскребе и видом на дворец культуры и науки',
-    pl: 'Wymagania: Ciepła aranżacja biura z meblami w stylu wieżowca i widokiem na Pałac Kultury i Nauki',
-    en: 'Requirements: Warm office design with skyscraper furniture and a view of the Palace of Culture and Science',
-  },
-  'portfolio-title-23': {
-    ua: 'Компанія дуже задоволена моєю роботою!',
-    ru: 'Компания очень довольна моей работой!',
-    pl: 'Firma jest bardzo zadowolona z mojej pracy!',
-    en: 'The company is very satisfied with my work!',
-  },
-  'portfolio-title-31': {
-    ua: 'Кейс який я закрив для іт стартапу',
-    ru: 'Кейс который я закрыл для ит стартапа',
-    pl: 'Sprawa, którą zamknąłem dla startupu IT',
-    en: 'A case I closed for an IT startup',
-  },
-  'portfolio-title-32': {
-    ua: 'Вимоги: Офіс з меблями та домашньою атмосферою',
-    ru: 'Требования: Офис с мебелью и домашней атмосферой',
-    pl: 'Wymagania: Biuro z umeblowaniem i domową atmosferą',
-    en: 'Requirements: Office with furniture and a homely atmosphere',
-  },
-  'portfolio-title-33': {
-    ua: 'Хлопці з іт стартапу залишились довольні!',
-    ru: 'Ребята из ит стартапа остались довольны!',
-    pl: 'Chłopaki ze start-upu IT byli zadowoleni!',
-    en: 'The guys from the IT startup were satisfied!',
-  },
-  // меню header
+  // навігація
   'header_menu-home': {
     ua: 'Головна',
     ru: 'Главная',
@@ -213,35 +56,46 @@ const homeTexts = {
     pl: 'Kontakty',
     en: 'Contact',
   },
-  'header_banner-name': {
-    ua: 'Yurii Bukhtii',
-    ru: 'Yurii Bukhtii',
-    pl: 'Yurii Bukhtii',
-    en: 'Yurii Bukhtii',
-  },
+  // hero section
   'header_banner-pre-title': {
     ua: 'Брокер з оренди офісів у Варшаві',
     ru: 'Брокер по аренде офисов в Варшаве',
     pl: 'Pośrednik w wynajmie biur w Warszawie',
     en: 'Office rental broker in Warsaw',
   },
+  // кнопка
   'header_banner-button': {
     ua: 'Безкоштовна консультація',
     ru: 'Бесплатная консультация',
     pl: 'Darmowa konsultacja',
     en: 'Free consultation',
   },
+  // ссилка
   'header_banner-link': {
     ua: 'Або зателефонувати за номером +48 735 775 810',
     ru: 'Или позвонить по номеру +48 735 775 810',
     pl: 'Lub zadzwoń +48 735 775 810',
     en: 'Or call +48 735 775 810',
   },
-  about_title: {
-    ua: 'Про мене',
-    ru: 'Обо мне',
-    pl: 'O mnie',
-    en: 'About me',
+  // my services
+  'my-services_title-2': {
+    ua: 'Я пропоную',
+    ru: 'Я предлагаю',
+    pl: 'Sugeruję',
+    en: 'I suggest',
+  },
+  // опис послуг 1
+  'my-services-desc-1': {
+    ua: 'Офіси в офісних будівлях',
+    ru: 'Офисы в офисных зданиях',
+    pl: 'Biura w budynkach biurowych',
+    en: 'Offices in office buildings',
+  },
+  'my-services-desc-2': {
+    ua: 'Офіси в бізнес-центрах',
+    ru: 'Офисы в бизнес-центрах',
+    pl: 'Biura w centrach biznesowych',
+    en: 'Offices in business centers',
   },
   about_title1: {
     ua: 'Офіси в офісних будівлях',
@@ -249,18 +103,189 @@ const homeTexts = {
     pl: 'Biura w budynkach biurowych',
     en: 'Offices in office buildings',
   },
+  about_description02: {
+    ua: '- це окремі будівлі, які мають різні класи (A, B, C)',
+    ru: ' - Это отдельные здания, имеющие разные классы (A, B, C)',
+    pl: '- Są to oddzielne budynki posiadające różne klasy (A, B, C)',
+    en: '- These are separate buildings that have different classes (A, B, C)',
+  },
+  about_description03: {
+    ua: 'Розташовані по всьому місту у різних районах Варшави',
+    ru: 'Расположены по всему городу в разных районах Варшавы',
+    pl: 'Znajdują się w różnych dzielnicach Warszawy',
+    en: 'Located throughout the city in different districts of Warsaw',
+  },
+  about_description04: {
+    ua: 'Особливості: Часто пропонують кабінетну систему планування',
+    ru: 'Особенности: Часто предлагают кабинетную систему планирования',
+    pl: 'Cechy: Często oferują system planowania szafek',
+    en: 'Features: Often offer a cabinet planning system',
+  },
+  about_description05: {
+    ua: 'Підходять: Малому та середньому бізнесу, локальним компаніям, яким важлива функціональність і паркінг',
+    ru: 'Подходят: Малому и среднему бизнесу, локальным компаниям, которым важна функциональность и паркинг',
+    pl: 'Odpowiednie dla: Małych i średnich przedsiębiorstw, lokalnych firm ceniących funkcjonalność i parking',
+    en: 'Suitable for: Small and medium businesses, local companies that value functionality and parking',
+  },
+  about_description06: {
+    ua: 'Престиж: Низький/Середній',
+    ru: 'Престиж: Низкий/Средний',
+    pl: 'Prestiż: niski/średni',
+    en: 'Prestige: Low/Medium',
+  },
+  about_description07: {
+    ua: 'Ціна (м²) 12€ - 14€',
+    ru: 'Цена (м²) 12€ - 14€',
+    pl: 'Cena (m²) 12€ - 14€',
+    en: 'Price (m²) 12€ - 14€',
+  },
+  // опис послуга 2
   about_title2: {
     ua: 'Офіси в бізнес-центрах',
     ru: 'Офисы в бизнес-центрах',
     pl: 'Biura w centrach biznesowych',
     en: 'Offices in business centers',
   },
-  about_title3: {
+  about_description0222: {
+    ua: '- Найпрестижніші офіси на високих поверхах значущих будівель з панорамними видами на місто',
+    ru: '- Самые престижные офисы на высоких этажах значимых зданий с панорамными видами на город',
+    pl: '- Najbardziej prestiżowe biura na najwyższych piętrach znaczących budynków z panoramicznym widokiem na miasto',
+    en: '- The most prestigious offices on the high floors of significant buildings with panoramic views of the city',
+  },
+  about_description0333: {
+    ua: 'Розташовані виключно діловий центр — Rondo ONZ, Rondo Daszyńskiego та вздовж вулиці Emilii Plater.Особливості',
+    ru: 'Расположены исключительно деловой центр — Rondo ONZ, Rondo Daszyńskiego и вдоль улицы Emilii Plater',
+    pl: 'Położone wyłącznie w centrum biznesowym - Rondzie ONZ, Rondzie Daszyńskiego i wzdłuż ulicy Emilii Plater.',
+    en: 'Located exclusively in the business center - Rondo ONZ, Rondo Daszyńskiego and along Emilii Plater Street. Features',
+  },
+  about_description0444: {
+    ua: 'Особливості: Панорамні краєвиди на місто, найвищий рівень безпеки та престижу',
+    ru: 'Особенности: Панорамные виды на город, высокий уровень безопасности и престижа',
+    pl: 'Cechy: Panoramiczny widok na miasto, najwyższy poziom bezpieczeństwa i prestiż',
+    en: 'Features: Panoramic views of the city, the highest level of security and prestige',
+  },
+  about_description0555: {
+    ua: 'Для кого: Банки, юридичні фірми, великі консалтингові компанії, інвестиційні фонди',
+    ru: 'Для кого: Банки, юридические фирмы, крупные консалтинговые компании, инвестиционные фонды',
+    pl: 'Dla kogo: Banki, kancelarie prawne, duże firmy konsultingowe, fundusze inwestycyjne',
+    en: 'For whom: Banks, law firms, large consulting companies, investment funds',
+  },
+  about_description0666: {
+    ua: 'Престиж: Ексклюзивний',
+    ru: 'Престиж: Эксклюзивный',
+    pl: 'Prestiż: Ekskluzywny',
+    en: 'Prestige: Exclusive',
+  },
+  about_description0777: {
+    ua: 'Ціна (м²) 22€ - 25€',
+    ru: 'Цена (м²) 22€ - 25€',
+    pl: 'Cena (m²) 22€ - 25€',
+    en: 'Price (m²) 22€ - 25€',
+  },
+  // опис послуга 3
+  'my-services-desc-3': {
     ua: 'Офіси в хмарочосах Варшави',
     ru: 'Офисы в небоскребах Варшавы',
     pl: 'Biura w warszawskich wieżowcach',
-    en: 'Offices in Warsaw skyscrapers',
+    en: 'Offices in Warsaw`s skyscrapers',
   },
+  about_description022: {
+    ua: '- це сучасні комплекси з розвиненою внутрішньою інфраструктурою (рецепція, охорона, кафе, конференц-зали, (Класи A та A+)',
+    ru: '- это современные комплексы с развитой внутренней инфраструктурой (рецепция, охрана, кафе, конференц-залы, (Классы A и A+)',
+    pl: '- są to nowoczesne kompleksy z rozwiniętą infrastrukturą wewnętrzną (recepcja, ochrona, kawiarnia, sale konferencyjne, (klasy A i A+)',
+    en: '- these are modern complexes with developed internal infrastructure (reception, security, cafe, conference rooms, (Classes A and A+)',
+  },
+  about_description033: {
+    ua: 'Розташовані в ділових районах та центрі міста Wola, Rondo Daszyńskiego, Śródmieście, Mokotów та Domaniewska',
+    ru: 'Расположены в деловых районах и центре города Wola, Rondo Daszyńskiego, Śródmieście, Mokotów и Domaniewska',
+    pl: 'Zlokalizowany w dzielnicach biznesowych i centrum Woli, Rondo Daszyńskiego, Śródmieściu, Mokotowie i Domaniewskiej',
+    en: 'Located in the business districts and city center of Wola, Rondo Daszyńskiego, Śródmieście, Mokotów and Domaniewska',
+  },
+  about_description044: {
+    ua: 'Особливості: Сучасні системи вентиляції, підземні паркінги. Мають сертифікати екологічності (BREEAM/LEED)',
+    ru: 'Современные системы вентиляции, подземные паркинги. Имеют сертификаты экологичности (BREEAM/LEED)',
+    pl: 'Cechy: Nowoczesne systemy wentylacji, parking podziemny. Posiadają certyfikaty środowiskowe (BREEAM/LEED)',
+    en: 'Features: Modern ventilation systems, underground parking. Have environmental certificates (BREEAM/LEED)',
+  },
+  about_description055: {
+    ua: 'Для кого: Корпорації, IT-компанії, міжнародні філії. Тут ви отримуєте "все включено" в межах однієї будівлі',
+    ru: 'Для кого: Корпорации, IT компании, международные филиалы. Здесь вы получаете "все включено" в пределах одного здания',
+    pl: 'Dla kogo: Korporacje, firmy IT, oddziały międzynarodowe. U nas otrzymasz „all inclusive” w jednym budynku',
+    en: 'For whom: Corporations, IT companies, international branches. Here you get "all inclusive" within one building',
+  },
+  about_description066: {
+    ua: 'Престиж: Високий',
+    ru: 'Престиж: Высокий',
+    pl: 'Prestiż: wysoki',
+    en: 'Prestige: High',
+  },
+  about_description077: {
+    ua: 'Ціна (м²) 15€ - 21€',
+    ru: 'Цена (м²) 15€ - 21€',
+    pl: 'Cena (m²) 15€ - 21€',
+    en: 'Price (m²) 15€ - 21€',
+  },
+  // формат офісу
+  'my-services_title-3': {
+    ua: 'Формат офісу може бути адаптований під Ваш Бізнес',
+    ru: 'Формат офиса может быть адаптирован под Ваш Бизнес',
+    pl: 'Format biura można dostosować do potrzeb Twojej firmy',
+    en: 'The office format can be adapted to your business',
+  },
+  // опис форматів офісу 1
+  'my-services-title-11': {
+    ua: 'Офіс без меблів',
+    ru: 'Офис без мебели',
+    pl: 'Biuro bez mebli',
+    en: 'Office without furniture',
+  },
+  'my-services-desc-11': {
+    ua: 'Ви отримуєте приміщення без фінального оздоблення, з усіма підведеними комунікаціями. Повний простір для втілення будь-яких дизайнерських рішень',
+    ru: 'Вы получаете помещение без финальной отделки, со всеми подведенными коммуникациями. Полное пространство для воплощения любых дизайнерских решений',
+    pl: 'Dostajesz pokój bez ostatecznego wystroju, ze wszystkimi mediami podłączonymi. Pełna przestrzeń do realizacji dowolnych rozwiązań aranżacyjnych',
+    en: 'You get a room without final decoration, with all communications connected. Full space for the implementation of any design solutions',
+  },
+  // опис форматів офісу 2
+  'my-services-title-22': {
+    ua: 'Мебльований Офіс',
+    ru: 'Меблированный офис',
+    pl: 'Umeblowane biuro',
+    en: 'Furnished Office',
+  },
+  'my-services-desc-22': {
+    ua: 'Офіс вже оснащений якісними меблями (столи, стільці, системи зберігання) та, за потреби, базовою технікою (принтери, сканери)',
+    ru: 'Офис уже оснащен качественной мебелью (столы, стулья, системы хранения) и, при необходимости, базовой техникой (принтеры, сканеры)',
+    pl: 'Biuro jest już wyposażone w wysokiej jakości meble (stoły, krzesła, systemy przechowywania) oraz, w razie potrzeby, podstawowy sprzęt (drukarki, skanery)',
+    en: 'The office is already equipped with quality furniture (tables, chairs, storage systems) and, if necessary, basic equipment (printers, scanners)',
+  },
+  // опис форматів офісу 3
+  'my-services-title-33': {
+    ua: 'Ремонт під клієнта',
+    ru: 'Ремонт под клиента',
+    pl: 'Naprawa dla klienta',
+    en: 'Repair for the client',
+  },
+  'my-services-desc-33': {
+    ua: 'Ми беремо на себе виконання індивідуального ремонту приміщення згідно з вашим технічним завданням. Ви отримуєте офіс "під ключ"',
+    ru: 'Мы берем на себя выполнение индивидуального ремонта помещения согласно вашему техническому заданию. Вы получаете офис "под ключ"',
+    pl: 'Podejmujemy się indywidualnego remontu lokalu według Państwa specyfikacji technicznej. Otrzymują Państwo biuro pod klucz',
+    en: 'We undertake individual renovation of the premises according to your technical specifications. You receive a turnkey office',
+  },
+  // мотиви обрати мене
+  contacts_logo3: {
+    ua: 'Шукаєте офіс у Варшаві? Звертайтеся і я запропоную Вам найкращі варіанти +48 735 775 810',
+    ru: 'Ищете офис в Варшаве? Обращайтесь и я предложу Вам самые лучшие варианты +48 735 775 810',
+    pl: 'Szukasz biura w Warszawie? Skontaktuj się ze mną, a przedstawię Ci najlepsze opcje. +48 735 775 810',
+    en: 'Looking for an office in Warsaw? Contact me and I will offer you the best options +48 735 775 810',
+  },
+  // про мене
+  about_title: {
+    ua: 'Про мене',
+    ru: 'Обо мне',
+    pl: 'O mnie',
+    en: 'About me',
+  },
+  // опис про мене
   about_description: {
     ua: 'Привіт! Я Юрій Бухтій',
     ru: 'Привет! Меня зовут Юрий Бухтий',
@@ -303,144 +328,202 @@ const homeTexts = {
     pl: 'Jestem Twoim niezawodnym partnerem w Warszawie. Jeśli chcesz, abym znalazł dla Ciebie idealne biuro, po prostu napisz lub zadzwoń do mnie +48 735 775 810',
     en: 'I am your reliable partner in Warsaw. If you are ready for me to find you the perfect office, just write or call me +48 735 775 810',
   },
-  // about_description01: {
-  //   ua: 'Офіси в офісних будівлях',
-  //   ru: 'Привет! Меня зовут Юрий Бухтий',
-  //   pl: 'Cześć! Nazywam się Yuriy Bukhty',
-  //   en: 'Hello! My name is Yurii Bukhtii',
-  // },
-  about_description02: {
-    ua: '- це окремі будівлі, які мають різні класи (A, B, C)',
-    ru: ' - Это отдельные здания, имеющие разные классы (A, B, C)',
-    pl: '- Są to oddzielne budynki posiadające różne klasy (A, B, C)',
-    en: '- These are separate buildings that have different classes (A, B, C)',
+  // переваги
+  'advantages_title-2': {
+    ua: 'Мої сильні переваги',
+    ru: 'Мои преимущества',
+    pl: 'Moje zalety',
+    en: 'My advantages',
   },
-  about_description03: {
-    ua: 'Розташовані по всьому місту у різних районах Варшави',
-    ru: 'Расположены по всему городу в разных районах Варшавы',
-    pl: 'Znajdują się w różnych dzielnicach Warszawy',
-    en: 'Located throughout the city in different districts of Warsaw',
+  'advantages_pre-title-4': {
+    ua: 'Ексклюзивна база офісів',
+    ru: 'Эксклюзивная база офисов',
+    pl: 'Ekskluzywna baza biurowa',
+    en: 'Exclusive office base',
   },
-  about_description04: {
-    ua: 'Особливості: Часто пропонують кабінетну систему планування',
-    ru: 'Особенности: Часто предлагают кабинетную систему планирования',
-    pl: 'Cechy: Często oferują system planowania szafek',
-    en: 'Features: Often offer a cabinet planning system',
+  'advantages_pre-title-5': {
+    ua: 'Персональний підбір',
+    ru: 'Персональный подбор',
+    pl: 'Personal selection',
+    en: 'Personal selection',
   },
-  about_description05: {
-    ua: 'Підходять: Малому та середньому бізнесу, локальним компаніям, яким важлива функціональність і паркінг',
-    ru: 'Подходят: Малому и среднему бизнесу, локальным компаниям, которым важна функциональность и паркинг',
-    pl: 'Odpowiednie dla: Małych i średnich przedsiębiorstw, lokalnych firm ceniących funkcjonalność i parking',
-    en: 'Suitable for: Small and medium businesses, local companies that value functionality and parking',
+  'advantages_pre-title-6': {
+    ua: 'Без комісії для орендаря',
+    ru: 'Без комиссии для арендатора',
+    pl: 'Brak opłat dla najemcy',
+    en: 'No fee for the tenant',
   },
-  about_description06: {
-    ua: 'Престиж: Низький/Середній',
-    ru: 'Престиж: Низкий/Средний',
-    pl: 'Prestiż: niski/średni',
-    en: 'Prestige: Low/Medium',
+  // процес підбору офісу
+  'my-services-title-4': {
+    ua: 'Процес підбору офісу',
+    ru: 'Процесс подбора офиса',
+    pl: 'Proces wyboru biura',
+    en: 'Office selection process',
   },
-  about_description07: {
-    ua: 'Ціна (м²) 12€ - 14€',
-    ru: 'Цена (м²) 12€ - 14€',
-    pl: 'Cena (m²) 12€ - 14€',
-    en: 'Price (m²) 12€ - 14€',
+  'my-services-title-41': {
+    ua: '1. Аналіз потреб орендаря',
+    ru: '1. Анализ потребностей арендатора',
+    pl: '1. Analiza potrzeb najemców',
+    en: '1. Tenant needs analysis',
   },
-  // about_description011: {
-  //   ua: 'Офіси в бізнес-центрах',
-  //   ru: 'Привет! Меня зовут Юрий Бухтий',
-  //   pl: 'Cześć! Nazywam się Yuriy Bukhty',
-  //   en: 'Hello! My name is Yurii Bukhtii',
-  // },
-  about_description022: {
-    ua: '- це сучасні комплекси з розвиненою внутрішньою інфраструктурою (рецепція, охорона, кафе, конференц-зали, (Класи A та A+)',
-    ru: '- это современные комплексы с развитой внутренней инфраструктурой (рецепция, охрана, кафе, конференц-залы, (Классы A и A+)',
-    pl: '- są to nowoczesne kompleksy z rozwiniętą infrastrukturą wewnętrzną (recepcja, ochrona, kawiarnia, sale konferencyjne, (klasy A i A+)',
-    en: '- these are modern complexes with developed internal infrastructure (reception, security, cafe, conference rooms, (Classes A and A+)',
+  'my-services-title-42': {
+    ua: 'Я починаю з консультації, щоб зрозуміти ваші потреби, бізнес-цілі та вимоги до локації офісу',
+    ru: 'Я начинаю с консультации, чтобы понять ваши потребности, бизнес-цели и требования к локации офиса',
+    pl: 'Zaczynam od konsultacji, aby zrozumieć Twoje potrzeby, cele biznesowe i wymagania dotyczące lokalizacji biura',
+    en: 'I start with a consultation to understand your needs, business goals, and office location requirements',
   },
-  about_description033: {
-    ua: 'Розташовані в ділових районах та центрі міста Wola, Rondo Daszyńskiego, Śródmieście, Mokotów та Domaniewska',
-    ru: 'Расположены в деловых районах и центре города Wola, Rondo Daszyńskiego, Śródmieście, Mokotów и Domaniewska',
-    pl: 'Zlokalizowany w dzielnicach biznesowych i centrum Woli, Rondo Daszyńskiego, Śródmieściu, Mokotowie i Domaniewskiej',
-    en: 'Located in the business districts and city center of Wola, Rondo Daszyńskiego, Śródmieście, Mokotów and Domaniewska',
+  'my-services-title-43': {
+    ua: '2. Аналіз доступних приміщень',
+    ru: '2. Анализ доступных помещений',
+    pl: '2. Analiza dostępnych lokali',
+    en: '2. Analysis of available premises',
   },
-  about_description044: {
-    ua: 'Особливості: Сучасні системи вентиляції, підземні паркінги. Мають сертифікати екологічності (BREEAM/LEED)',
-    ru: 'Современные системы вентиляции, подземные паркинги. Имеют сертификаты экологичности (BREEAM/LEED)',
-    pl: 'Cechy: Nowoczesne systemy wentylacji, parking podziemny. Posiadają certyfikaty środowiskowe (BREEAM/LEED)',
-    en: 'Features: Modern ventilation systems, underground parking. Have environmental certificates (BREEAM/LEED)',
+  'my-services-title-44': {
+    ua: 'Клієнт отримує перелік доступних об`єктів, які ідеально відповідають його критеріям',
+    ru: 'Клиент получает список доступных объектов, которые идеально отвечают его критериям',
+    pl: 'Klient otrzymuje listę dostępnych nieruchomości, które idealnie odpowiadają jego kryteriom',
+    en: 'The client receives a list of available properties that perfectly match his criteria',
   },
-  about_description055: {
-    ua: 'Для кого: Корпорації, IT-компанії, міжнародні філії. Тут ви отримуєте "все включено" в межах однієї будівлі',
-    ru: 'Для кого: Корпорации, IT компании, международные филиалы. Здесь вы получаете "все включено" в пределах одного здания',
-    pl: 'Dla kogo: Korporacje, firmy IT, oddziały międzynarodowe. U nas otrzymasz „all inclusive” w jednym budynku',
-    en: 'For whom: Corporations, IT companies, international branches. Here you get "all inclusive" within one building',
+  'my-services-title-45': {
+    ua: '3. Перегляд обраних приміщень',
+    ru: '3. Просмотр избранных помещений',
+    pl: '3. Zobacz wybrane lokale',
+    en: '3. View selected premises',
   },
-  about_description066: {
-    ua: 'Престиж: Високий',
-    ru: 'Престиж: Высокий',
-    pl: 'Prestiż: wysoki',
-    en: 'Prestige: High',
+  'my-services-title-46': {
+    ua: 'Домовляюсь про зустрічі з власниками та організовую виїзні презентації всіх обраних об`єктів',
+    ru: 'Договариваюсь о встречах с владельцами и организую выездные презентации всех выбранных объектов',
+    pl: 'Organizuję spotkania z właścicielami i prezentacje terenowe wszystkich wybranych nieruchomości',
+    en: 'I arrange meetings with owners and organize field presentations of all selected properties',
   },
-  about_description077: {
-    ua: 'Ціна (м²) 15€ - 21€',
-    ru: 'Цена (м²) 15€ - 21€',
-    pl: 'Cena (m²) 15€ - 21€',
-    en: 'Price (m²) 15€ - 21€',
+  'my-services-title-47': {
+    ua: '4. Технічна підтримка орендаря',
+    ru: '4. Техническая поддержка арендатора',
+    pl: '4. Wsparcie techniczne najemcy',
+    en: '4. Tenant technical support',
   },
-  // about_description0111: {
-  //   ua: 'Офіси в хмарочосах Варшави',
-  //   ru: 'Привет! Меня зовут Юрий Бухтий',
-  //   pl: 'Cześć! Nazywam się Yuriy Bukhty',
-  //   en: 'Hello! My name is Yurii Bukhtii',
-  // },
-  about_description0222: {
-    ua: '- Найпрестижніші офіси на високих поверхах значущих будівель з панорамними видами на місто',
-    ru: '- Самые престижные офисы на высоких этажах значимых зданий с панорамными видами на город',
-    pl: '- Najbardziej prestiżowe biura na najwyższych piętrach znaczących budynków z panoramicznym widokiem na miasto',
-    en: '- The most prestigious offices on the high floors of significant buildings with panoramic views of the city',
+  'my-services-title-48': {
+    ua: 'Надаю аналіз приміщення від наших архітекторів щоб розрахувати потенційну кількість робочих місць',
+    ru: 'Предоставляю анализ помещения от наших архитекторов, чтобы рассчитать потенциальное количество рабочих мест',
+    pl: 'Dostarczam analizę pomieszczeń sporządzoną przez naszych architektów w celu oszacowania potencjalnej liczby miejsc pracy',
+    en: 'I provide a room analysis from our architects to calculate the potential number of jobs',
   },
-  about_description0333: {
-    ua: 'Розташовані виключно діловий центр — Rondo ONZ, Rondo Daszyńskiego та вздовж вулиці Emilii Plater.Особливості',
-    ru: 'Расположены исключительно деловой центр — Rondo ONZ, Rondo Daszyńskiego и вдоль улицы Emilii Plater',
-    pl: 'Położone wyłącznie w centrum biznesowym - Rondzie ONZ, Rondzie Daszyńskiego i wzdłuż ulicy Emilii Plater.',
-    en: 'Located exclusively in the business center - Rondo ONZ, Rondo Daszyńskiego and along Emilii Plater Street. Features',
+  'my-services-title-49': {
+    ua: '5. Проведення переговорів',
+    ru: '5. Проведение переговоров',
+    pl: '5. Prowadzenie negocjacji',
+    en: '5. Conducting negotiations',
   },
-  about_description0444: {
-    ua: 'Особливості: Панорамні краєвиди на місто, найвищий рівень безпеки та престижу',
-    ru: 'Особенности: Панорамные виды на город, высокий уровень безопасности и престижа',
-    pl: 'Cechy: Panoramiczny widok na miasto, najwyższy poziom bezpieczeństwa i prestiż',
-    en: 'Features: Panoramic views of the city, the highest level of security and prestige',
+  'my-services-title-50': {
+    ua: 'Мої налагоджені бізнес-відносини з власниками приміщень дозволяють добиватися найкращих орендних умов для вашого бізнесу',
+    ru: 'Мои отлаженные бизнес-отношения с владельцами помещений позволяют добиваться наилучших арендных условий для вашего бизнеса',
+    pl: 'Dzięki moim ugruntowanym relacjom biznesowym z właścicielami nieruchomości możemy zapewnić Państwu najlepsze warunki wynajmu dla Państwa biznesu',
+    en: 'My established business relationships with property owners allow us to achieve the best rental conditions for your business',
   },
-  about_description0555: {
-    ua: 'Для кого: Банки, юридичні фірми, великі консалтингові компанії, інвестиційні фонди',
-    ru: 'Для кого: Банки, юридические фирмы, крупные консалтинговые компании, инвестиционные фонды',
-    pl: 'Dla kogo: Banki, kancelarie prawne, duże firmy konsultingowe, fundusze inwestycyjne',
-    en: 'For whom: Banks, law firms, large consulting companies, investment funds',
+  'my-services-title-51': {
+    ua: '6. Супровід після оренди',
+    ru: '6. Сопровождение после аренды',
+    pl: '6. Wsparcie po wynajmie',
+    en: '6. Post-rental support',
   },
-  about_description0666: {
-    ua: 'Престиж: Ексклюзивний',
-    ru: 'Престиж: Эксклюзивный',
-    pl: 'Prestiż: Ekskluzywny',
-    en: 'Prestige: Exclusive',
+  'my-services-title-52': {
+    ua: 'Я залишаюся вашим надійним партнером протягом усього терміну дії договору оренди',
+    ru: 'Я остаюсь вашим надежным партнером в течение всего срока действия договора аренды',
+    pl: 'Pozostaję Państwa niezawodnym partnerem przez cały okres trwania umowy najmu',
+    en: 'I remain your reliable partner throughout the entire term of the lease agreement',
   },
-  about_description0777: {
-    ua: 'Ціна (м²) 22€ - 25€',
-    ru: 'Цена (м²) 22€ - 25€',
-    pl: 'Cena (m²) 22€ - 25€',
-    en: 'Price (m²) 22€ - 25€',
+
+  about_title3: {
+    ua: 'Офіси в хмарочосах Варшави',
+    ru: 'Офисы в небоскребах Варшавы',
+    pl: 'Biura w warszawskich wieżowcach',
+    en: 'Offices in Warsaw skyscrapers',
   },
+  'my-services-desc-4': {
+    ua: 'Офіси в адміністративних будівлях',
+    ru: 'Подбор офиса для аренды без мебели',
+    pl: 'Wybór biura do wynajęcia bez mebli',
+    en: 'Selecting an office for rent without furniture',
+  },
+  'my-services-desc-5': {
+    ua: 'Підбір офісу для оренди з індивідуальним ремонтом під орендаря',
+    ru: 'Подбор офиса для аренды с индивидуальным ремонтом под арендатора',
+    pl: 'Wybór biura do wynajęcia z indywidualnym remontem dla najemcy',
+    en: 'Selection of an office for rent with individual renovation for the tenant',
+  },
+  //  кейс 1
+  'portfolio-title': {
+    ua: 'Кейс який я закрив для іт компанії',
+    ru: 'Кейс который я закрыл для ит компании',
+    pl: 'Sprawa, którą zamknąłem dla firmy IT',
+    en: 'A case I closed for an IT company',
+  },
+
+  'portfolio-title-2': {
+    ua: 'Вимоги: сучасний офіс з меблями, в центрі міста в хмарочоці та з гарним виглядом з вікон на місто',
+    ru: 'Требования: современный офис с мебелью, в центре города в небоскребе и с красивым видом из окон на город',
+    pl: 'Wymagania: nowoczesne biuro z umeblowaniem, w centrum miasta, w wieżowcu, z pięknym widokiem na miasto z okien',
+    en: 'Requirements: modern office with furniture, in the city center in a skyscraper and with a beautiful view of the city from the windows',
+  },
+  'portfolio-title-3': {
+    ua: 'Я виконав усі вимоги і іт компанія залишилась задоволена!',
+    ru: 'Я выполнил все требования и компания осталась довольна!',
+    pl: 'Spełniłem wszystkie wymagania i firma była zadowolona!',
+    en: 'I fulfilled all the requirements and the company was satisfied!',
+  },
+  // кейс 2
+  'portfolio-title-21': {
+    ua: 'Кейс який я закрив для YouTube каналу',
+    ru: 'Кейс который я закрыл для канала YouTube',
+    pl: 'Sprawa, którą zamknąłem dla kanału YouTube',
+    en: 'The case I closed for the YouTube channel',
+  },
+  'portfolio-title-22': {
+    ua: 'Вимоги: Теплий дизайн офісу з меблями в хмарочоці та виглядом на палац культури і науки',
+    ru: 'Требования: Теплый дизайн офиса с мебелью в небоскребе и видом на дворец культуры и науки',
+    pl: 'Wymagania: Ciepła aranżacja biura z meblami w stylu wieżowca i widokiem na Pałac Kultury i Nauki',
+    en: 'Requirements: Warm office design with skyscraper furniture and a view of the Palace of Culture and Science',
+  },
+  'portfolio-title-23': {
+    ua: 'Компанія дуже задоволена моєю роботою!',
+    ru: 'Компания очень довольна моей работой!',
+    pl: 'Firma jest bardzo zadowolona z mojej pracy!',
+    en: 'The company is very satisfied with my work!',
+  },
+  // кейс 3
+  'portfolio-title-31': {
+    ua: 'Кейс який я закрив для іт стартапу',
+    ru: 'Кейс который я закрыл для ит стартапа',
+    pl: 'Sprawa, którą zamknąłem dla startupu IT',
+    en: 'A case I closed for an IT startup',
+  },
+  'portfolio-title-32': {
+    ua: 'Вимоги: Офіс з меблями та домашньою атмосферою',
+    ru: 'Требования: Офис с мебелью и домашней атмосферой',
+    pl: 'Wymagania: Biuro z umeblowaniem i domową atmosferą',
+    en: 'Requirements: Office with furniture and a homely atmosphere',
+  },
+  'portfolio-title-33': {
+    ua: 'Хлопці з іт стартапу залишились довольні!',
+    ru: 'Ребята из ит стартапа остались довольны!',
+    pl: 'Chłopaki ze start-upu IT byli zadowoleni!',
+    en: 'The guys from the IT startup were satisfied!',
+  },
+  // мотивація
   contacts_logo: {
     ua: 'Загалом, я успішно допоміг вже 40 компаніям знайти офіс в оренду. Буду радий допомогти і Вам!',
     ru: 'В общем, я успешно помог уже 40 компаниям найти офис в аренду. Буду рад помочь и вам!',
     pl: 'W sumie pomogłem ponad 50 firmom znaleźć biuro do wynajęcia. Chętnie pomogę również Tobie!',
     en: 'In total, I have successfully helped over 50 companies find an office for rent. I would be happy to help you too!',
   },
-  contacts_logo3: {
-    ua: 'Шукаєте офіс у Варшаві? Звертайтеся і я запропоную Вам найкращі варіанти +48 735 775 810',
-    ru: 'Ищете офис в Варшаве? Обращайтесь и я предложу Вам самые лучшие варианты +48 735 775 810',
-    pl: 'Szukasz biura w Warszawie? Skontaktuj się ze mną, a przedstawię Ci najlepsze opcje. +48 735 775 810',
-    en: 'Looking for an office in Warsaw? Contact me and I will offer you the best options +48 735 775 810',
+  // екекекек
+  'header_banner-name': {
+    ua: 'Yurii Bukhtii',
+    ru: 'Yurii Bukhtii',
+    pl: 'Yurii Bukhtii',
+    en: 'Yurii Bukhtii',
   },
+  // футер мотивація
   contacts_logo2: {
     ua: 'Безкоштовно знайду офіс у Варшаві під ваші індивідуальні потреби',
     ru: 'Бесплатно найду офис в Варшаве под ваши индивидуальные нужды',
