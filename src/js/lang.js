@@ -240,10 +240,10 @@ const homeTexts = {
     en: 'Office without furniture',
   },
   'my-services-desc-11': {
-    ua: 'Ви отримуєте приміщення без фінального оздоблення, з усіма підведеними комунікаціями. Повний простір для втілення будь-яких дизайнерських рішень',
-    ru: 'Вы получаете помещение без финальной отделки, со всеми подведенными коммуникациями. Полное пространство для воплощения любых дизайнерских решений',
-    pl: 'Dostajesz pokój bez ostatecznego wystroju, ze wszystkimi mediami podłączonymi. Pełna przestrzeń do realizacji dowolnych rozwiązań aranżacyjnych',
-    en: 'You get a room without final decoration, with all communications connected. Full space for the implementation of any design solutions',
+    ua: 'Ви отримуєте приміщення без оздоблення, з усіма підведеними комунікаціями. Повний простір для втілення будь-яких ваших рішень',
+    ru: 'Вы получаете помещение без отделки, со всеми подведенными коммуникациями. Полное пространство для воплощения любых ваших решений',
+    pl: 'Dostajesz pokój bez dekoracji, ze wszystkimi mediami podłączonymi. Pełna przestrzeń do realizacji Twoich decyzji',
+    en: 'You get a room without decoration, with all communications connected. Full space for the implementation of any of your decisions',
   },
   // опис форматів офісу 2
   'my-services-title-22': {
