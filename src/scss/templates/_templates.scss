@@ -50,6 +50,12 @@
   }
 }
 
+.right {
+  @media screen and (min-width: 581px) {
+    text-align: right;
+  }
+}
+
 %section-padding {
   padding-top: 50px;
   padding-bottom: 50px;
