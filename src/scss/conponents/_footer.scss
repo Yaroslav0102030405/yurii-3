@@ -67,3 +67,12 @@
   // @extend %button__hover;
   fill: #ff2400;
 }
+
+.title-projects {
+  font-size: clamp(37px, 5.25vw, 49px);
+}
+
+.hero-title-2 {
+  color: $text-color;
+  font-size: clamp(16px, 4.25vw, 24px);
+}

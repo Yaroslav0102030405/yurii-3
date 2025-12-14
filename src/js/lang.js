@@ -58,10 +58,10 @@ const homeTexts = {
   },
   // hero section
   'header_banner-pre-title': {
-    ua: 'Брокер з оренди офісів у Варшаві',
-    ru: 'Брокер по аренде офисов в Варшаве',
-    pl: 'Pośrednik w wynajmie biur w Warszawie',
-    en: 'Office rental broker in Warsaw',
+    ua: 'Брокер з оренди офісів у Варшаві для бізнесу',
+    ru: 'Брокер по аренде офисов в Варшаве для бизнеса',
+    pl: 'Pośrednik w wynajmie biur w Warszawie dla firm',
+    en: 'Office rental broker in Warsaw for business',
   },
   // кнопка
   'header_banner-button': {
@@ -227,10 +227,10 @@ const homeTexts = {
   },
   // формат офісу
   'my-services_title-3': {
-    ua: 'Формат офісу може бути адаптований під Ваш Бізнес',
-    ru: 'Формат офиса может быть адаптирован под Ваш Бизнес',
-    pl: 'Format biura można dostosować do potrzeb Twojej firmy',
-    en: 'The office format can be adapted to your business',
+    ua: 'офіс може бути адаптований під Ваш Бізнес',
+    ru: 'офис может быть адаптирован под Ваш Бизнес',
+    pl: 'Biuro można dostosować do prowadzonej działalności',
+    en: 'The office can be adapted to your business',
   },
   // опис форматів офісу 1
   'my-services-title-11': {
@@ -361,17 +361,17 @@ const homeTexts = {
     en: 'Zero commission for the tenant',
   },
   'advantages_desc-5': {
-    ua: 'Ви отримуєте повний професійний супровід та експертну допомогу з підбору офісу у Варшаві абсолютно безкоштовно, без жодних прихованих платежів чи додаткових комісій. Мої послуги на 100% оплачує власник офісної будівлі (орендодавець)',
-    ru: 'Вы получаете полное профессиональное сопровождение и экспертную помощь по подбору офиса в Варшаве абсолютно бесплатно, без скрытых платежей или дополнительных комиссий. Мои услуги на 100% оплачивает владелец офисного здания (арендодатель)',
-    pl: 'Otrzymujesz pełne, profesjonalne wsparcie i fachową pomoc w wyborze biura w Warszawie całkowicie za darmo, bez ukrytych opłat i dodatkowych prowizji. Moje usługi są w 100% finansowane przez właściciela budynku biurowego (wynajmującego)',
-    en: 'You receive full professional support and expert assistance in selecting an office in Warsaw absolutely free of charge, without any hidden fees or additional commissions. My services are 100% paid for by the owner of the office building (landlord)',
+    ua: 'Ви отримуєте повний професійний супровід та експертну допомогу з підбору офісу у Варшаві абсолютно безкоштовно, без жодних прихованих платежів чи додаткових комісій. Мої послуги на 100% оплачує власник офісної будівлі',
+    ru: 'Вы получаете полное профессиональное сопровождение и экспертную помощь по подбору офиса в Варшаве абсолютно бесплатно, без скрытых платежей или дополнительных комиссий. Мои услуги на 100% оплачивает владелец офисного здания',
+    pl: 'Otrzymujesz pełne, profesjonalne wsparcie i fachową pomoc w wyborze biura w Warszawie całkowicie za darmo, bez ukrytych opłat i dodatkowych prowizji. Moje usługi są w 100% finansowane przez właściciela budynku biurowego',
+    en: 'You receive full professional support and expert assistance in selecting an office in Warsaw absolutely free of charge, without any hidden fees or additional commissions. My services are 100% paid for by the owner of the office building',
   },
   // процес підбору офісу
   'my-services-title-4': {
-    ua: 'Процес підбору офісу',
-    ru: 'Процесс подбора офиса',
-    pl: 'Proces wyboru biura',
-    en: 'Office selection process',
+    ua: 'Процес пошуку офісу',
+    ru: 'Процесс поиска офиса',
+    pl: 'Proces poszukiwania biura',
+    en: 'Office search process',
   },
   'my-services-title-41': {
     ua: '1. Аналіз потреб орендаря',
@@ -472,14 +472,14 @@ const homeTexts = {
     en: 'Who do I help find an office in Warsaw?',
   },
   'advantages_pre-title-61': {
-    ua: 'Компаніям стартапам, які тільки починають свій шлях у Польщі',
-    ru: 'Компаниям стартапам, только начинающим свой путь в Польше',
-    pl: 'Dla firm typu startup, które dopiero rozpoczynają swoją przygodę w Polsce',
-    en: 'For startup companies that are just starting their journey in Poland',
+    ua: 'Компанії стартапи, які тільки починають свій шлях у Польщі і потребують представницького офісу',
+    ru: 'Компании стартапы, которые только начинают свой путь в Польше и нуждаются в представительном офисе',
+    pl: 'Firmy typu start-up, które dopiero rozpoczynają swoją działalność w Polsce i potrzebują przedstawicielstwa',
+    en: 'Startup companies that are just starting their journey in Poland and need a representative office',
   },
   'advantages_pre-title-62': {
-    ua: 'Малому і середньому бізнесу, який шукає функціональні та доступні офісні приміщення',
-    ru: 'Малому и среднему бизнесу, который ищет функциональные и доступные офисные помещения',
+    ua: 'Малий і середній бізнес, який шукають функціональні та доступні офісні приміщення',
+    ru: 'Малый и средний бизнес, ищущий функциональные и доступные офисные помещения',
     pl: 'Małe i średnie przedsiębiorstwa poszukujące funkcjonalnej i niedrogiej powierzchni biurowej',
     en: 'Small and medium-sized businesses looking for functional and affordable office space',
   },
@@ -490,29 +490,35 @@ const homeTexts = {
     en: 'Consulting and legal agencies expanding their presence in Warsaw',
   },
   'advantages_pre-title-64': {
-    ua: 'Фінансовим компаніям, iнвестацйним фондам та банкам',
-    ru: 'Финансовым компаниям, инвестиционным фондам и банкам',
+    ua: 'Фінансові компанії, інвестиційні фонди та банки, яким необхідні офіси високого класу в центрі міста',
+    ru: 'Финансовые компании, инвестиционные фонды и банки, которым необходимы офисы высокого класса в центре города',
     pl: 'Firmy finansowe, fundusze inwestycyjne i banki',
     en: 'Financial companies, investment funds and banks',
   },
   'advantages_pre-title-65': {
-    ua: 'Міжнародним корпораціям, що виходять на ринок Польщі',
-    ru: 'Международным корпорациям, выходящим на рынок Польши',
-    pl: 'Międzynarodowe korporacje wchodzące na rynek polski',
-    en: 'International corporations entering the Polish market',
+    ua: 'Міжнародні корпорації, що виходять на ринок Польщі і шукають головний офіс',
+    ru: 'Международные корпорации, выходящие на рынок Польши и ищущие головной офис',
+    pl: 'Korporacje międzynarodowe wchodzące na rynek polski i poszukujące siedziby głównej',
+    en: 'International corporations entering the Polish market and looking for a head office',
   },
   'advantages_pre-title-66': {
-    ua: 'Великим іт-компаніям та R&D-центрам які шукають офіси в хмарочосах Варшави',
-    ru: 'Большим ИТ-компаниям и R&D-центрам, которые ищут офисы в небоскребах Варшавы',
-    pl: 'Dla dużych firm IT i centrów badawczo-rozwojowych poszukujących biur w warszawskich wieżowcach',
-    en: 'For large IT companies and R&D centers looking for offices in Warsaw`s skyscrapers',
+    ua: 'Великі IT-компанії та R&D-центри, які шукають ексклюзивні офіси в хмарочосах Варшави',
+    ru: 'Большие IT-компании и R&D-центры, которые ищут эксклюзивные офисы в небоскребах Варшавы',
+    pl: 'Duże firmy IT i centra badawczo-rozwojowe poszukują ekskluzywnych biur w warszawskich wieżowcach',
+    en: 'Large IT companies and R&D centers looking for exclusive offices in Warsaw`s skyscrapers',
   },
   //  кейс 1
+  'portfolio-title-00': {
+    ua: 'Реалізовані проекти',
+    ru: 'Реализованные проекты',
+    pl: 'Zrealizowane projekty',
+    en: 'Implemented projects',
+  },
   'portfolio-title': {
-    ua: 'Кейс який я закрив для іт компанії',
-    ru: 'Кейс который я закрыл для ит компании',
-    pl: 'Sprawa, którą zamknąłem dla firmy IT',
-    en: 'A case I closed for an IT company',
+    ua: 'Кейс, який я успішно закрив для іт-стартапу',
+    ru: 'Кейс, который я успешно закрыл для ит-стартапа',
+    pl: 'Sprawa, którą pomyślnie zamknąłem dla startupu IT',
+    en: 'A case I successfully closed for an IT startup',
   },
   'portfolio-title-2': {
     ua: 'Вимоги: сучасний офіс з меблями, в центрі міста в хмарочоці та з гарним виглядом з вікон на місто',
@@ -528,10 +534,10 @@ const homeTexts = {
   },
   // кейс 2
   'portfolio-title-21': {
-    ua: 'Кейс який я закрив для YouTube каналу',
-    ru: 'Кейс который я закрыл для канала YouTube',
-    pl: 'Sprawa, którą zamknąłem dla kanału YouTube',
-    en: 'The case I closed for the YouTube channel',
+    ua: 'Кейс, який я успішно закрив для компанії',
+    ru: 'Кейс, который я успешно закрыл для компании',
+    pl: 'Sprawa, którą pomyślnie zamknąłem dla firmy',
+    en: 'A case I successfully closed for the company',
   },
   'portfolio-title-22': {
     ua: 'Вимоги: Теплий дизайн офісу з меблями в хмарочоці та виглядом на палац культури і науки',
@@ -547,10 +553,10 @@ const homeTexts = {
   },
   // кейс 3
   'portfolio-title-31': {
-    ua: 'Кейс який я закрив для іт стартапу',
-    ru: 'Кейс который я закрыл для ит стартапа',
-    pl: 'Sprawa, którą zamknąłem dla startupu IT',
-    en: 'A case I closed for an IT startup',
+    ua: 'Кейс, який я успішно закрив для для YouTube каналу',
+    ru: 'Кейс, который я успешно закрыл для канала YouTube',
+    pl: 'Sprawa, którą pomyślnie zamknąłem dla kanału YouTube',
+    en: 'A case I successfully closed for the YouTube channel',
   },
   'portfolio-title-32': {
     ua: 'Вимоги: Офіс з меблями та домашньою атмосферою',
