@@ -58,10 +58,16 @@ const homeTexts = {
   },
   // hero section
   'header_banner-pre-title': {
-    ua: 'Брокер з оренди офісів у Варшаві для бізнесу',
-    ru: 'Брокер по аренде офисов в Варшаве для бизнеса',
+    ua: 'Брокер з оренди офісів у Варшаві для компаній',
+    ru: 'Брокер по аренде офисов в Варшаве для компаний',
     pl: 'Pośrednik w wynajmie biur w Warszawie dla firm',
-    en: 'Office rental broker in Warsaw for business',
+    en: 'Office rental broker in Warsaw for companies',
+  },
+  'header_banner-pre-title-2': {
+    ua: '(локальних та міжнародних: від стартапів до корпорацій)',
+    ru: '(локальных и международных: от стартапов до корпораций)',
+    pl: '(lokalne i międzynarodowe: od startupów do korporacji)',
+    en: '(local and international: from startups to corporations)',
   },
   // кнопка
   'header_banner-button': {
@@ -586,10 +592,10 @@ const homeTexts = {
   },
   // футер мотивація
   contacts_logo2: {
-    ua: 'Безкоштовно знайду офіс у Варшаві під ваші індивідуальні потреби',
-    ru: 'Бесплатно найду офис в Варшаве под ваши индивидуальные нужды',
-    pl: 'Bezpłatnie znajdę biuro w Warszawie dopasowane do Twoich indywidualnych potrzeb',
-    en: 'I will find an office in Warsaw for free to suit your individual needs',
+    ua: 'Безкоштовно знайду офіс у Варшаві під індивідуальні вимоги вашої компанії',
+    ru: 'Бесплатно найду офис в Варшаве под индивидуальные требования вашей компании',
+    pl: 'Bezpłatnie znajdę biuro w Warszawie, dostosowane do indywidualnych potrzeb Twojej firmy',
+    en: 'I will find an office in Warsaw for free, tailored to your company`s individual requirements',
   },
   form_title: {
     ua: 'З питань оренди офісу у Варшаві зв`язатися зі мною',
