@@ -47,7 +47,7 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  color: #3e4464;
+  color: $bg-color;
   font-size: 20px;
 
   @media screen and (max-width: 580px) {

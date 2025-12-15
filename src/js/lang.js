@@ -266,10 +266,10 @@ const homeTexts = {
   },
   // опис форматів офісу 3
   'my-services-title-33': {
-    ua: 'Ремонт під клієнта',
-    ru: 'Ремонт под клиента',
-    pl: 'Naprawa dla klienta',
-    en: 'Repair for the client',
+    ua: 'Офіс з ремонтом під клієнта',
+    ru: 'Офис с ремонтом под клиента',
+    pl: 'Biuro odnowione dla klienta',
+    en: 'Office renovated for the client',
   },
   'my-services-desc-33': {
     ua: 'Ми беремо на себе виконання індивідуального ремонту приміщення згідно з вашим технічним завданням. Ви отримуєте офіс "під ключ"',
