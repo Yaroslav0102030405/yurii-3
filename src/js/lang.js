@@ -374,10 +374,10 @@ const homeTexts = {
   },
   // процес підбору офісу
   'my-services-title-4': {
-    ua: 'Процес пошуку офісу',
-    ru: 'Процесс поиска офиса',
-    pl: 'Proces poszukiwania biura',
-    en: 'Office search process',
+    ua: 'Процес підбору офісу',
+    ru: 'Процесс подбора офиса',
+    pl: 'Proces wyboru biura',
+    en: 'Office selection process',
   },
   'my-services-title-41': {
     ua: '1. Аналіз потреб орендаря',
