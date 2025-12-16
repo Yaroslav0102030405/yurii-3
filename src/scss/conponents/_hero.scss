@@ -213,6 +213,7 @@
 }
 
 .hero__content {
+  border: 1px solid $text-color;
   place-self: end;
   align-self: center;
   // place-self: end;
@@ -233,9 +234,9 @@
   background-position: center top;
   background-size: cover;
 
-  @media screen and (max-width: 580px) {
-    border: 1px solid $text-color;
-  }
+  // @media screen and (max-width: 580px) {
+  //   border: 1px solid $text-color;
+  // }
 }
 
 .hero__maps {

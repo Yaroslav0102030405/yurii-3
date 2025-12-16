@@ -232,6 +232,12 @@ const homeTexts = {
     en: 'Price (m²) 15€ - 21€',
   },
   // формат офісу
+  'my-services_title-03': {
+    ua: 'Комплектація офісу',
+    ru: 'Комплектация офиса',
+    pl: 'Sprzęt biurowy',
+    en: 'Office equipment',
+  },
   'my-services_title-3': {
     ua: 'офіс може бути адаптований під Ваш Бізнес',
     ru: 'офис может быть адаптирован под Ваш Бизнес',
@@ -374,10 +380,10 @@ const homeTexts = {
   },
   // процес підбору офісу
   'my-services-title-4': {
-    ua: 'Процес підбору офісу',
-    ru: 'Процесс подбора офиса',
-    pl: 'Proces wyboru biura',
-    en: 'Office selection process',
+    ua: 'Професійний підбір та супровід з оренди офісу',
+    ru: 'Профессиональный подбор и сопровождение по аренде офиса',
+    pl: 'Profesjonalny dobór i wsparcie w wynajmie biur',
+    en: 'Professional selection and support for office rental',
   },
   'my-services-title-41': {
     ua: '1. Аналіз потреб орендаря',
