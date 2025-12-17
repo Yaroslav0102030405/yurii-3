@@ -38,12 +38,12 @@ const homeTexts = {
     pl: 'O mnie',
     en: 'About me',
   },
-  'header_menu-service': {
-    ua: 'Переваги',
-    ru: 'Преимущества',
-    pl: 'Zalety',
-    en: 'Advantages',
-  },
+  // 'header_menu-service': {
+  //   ua: 'Переваги',
+  //   ru: 'Преимущества',
+  //   pl: 'Zalety',
+  //   en: 'Advantages',
+  // },
   'header_menu-cases': {
     ua: 'Кейси',
     ru: 'Кейсы',
