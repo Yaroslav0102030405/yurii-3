@@ -92,16 +92,22 @@ const homeTexts = {
   },
   // опис послуг 1
   'my-services-desc-1': {
-    ua: 'Офіси в офісних будівлях',
-    ru: 'Офисы в офисных зданиях',
-    pl: 'Biura w budynkach biurowych',
-    en: 'Offices in office buildings',
+    ua: 'Офіси в офісних будівлях від 2200€ до 5500€/місяць',
+    ru: 'Офисы в офисных зданиях от 2200 € до 5500 €/месяц',
+    pl: 'Biura w budynkach biurowych od 2200 do 5500 euro/miesiąc',
+    en: 'Offices in office buildings from €2,200 to €5,500/month',
   },
   'my-services-desc-2': {
-    ua: 'Офіси в бізнес-центрах',
-    ru: 'Офисы в бизнес-центрах',
-    pl: 'Biura w centrach biznesowych',
-    en: 'Offices in business centers',
+    ua: 'Офіси в бізнес-центрах від 6000€ до 7700€/місяць',
+    ru: 'Офисы в бизнес-центрах от 6000€ до 7700€/месяц',
+    pl: 'Biura w centrach biznesowych od 6000 do 7700 euro/miesiąc',
+    en: 'Offices in business centers from €6,000 to €7,700/month',
+  },
+  'my-services-desc-3': {
+    ua: 'Офіси в хмарочосах Варшави від 8000€ до 13000€/місяць',
+    ru: 'Офисы в небоскребах Варшавы от 8000€ до 13000€/месяц',
+    pl: 'Biura w warszawskich wieżowcach od 8 000 do 13 000 euro/miesiąc',
+    en: 'Offices in Warsaw skyscrapers from €8,000 to €13,000/month',
   },
   about_title1: {
     ua: 'Офіси в офісних будівлях',
@@ -189,12 +195,7 @@ const homeTexts = {
     en: 'Price (m²) 22€ - 25€',
   },
   // опис послуга 3
-  'my-services-desc-3': {
-    ua: 'Офіси в хмарочосах Варшави',
-    ru: 'Офисы в небоскребах Варшавы',
-    pl: 'Biura w warszawskich wieżowcach',
-    en: 'Offices in Warsaw`s skyscrapers',
-  },
+
   about_description022: {
     ua: '- це сучасні комплекси з розвиненою внутрішньою інфраструктурою (рецепція, охорона, кафе, конференц-зали, (Класи A та A+)',
     ru: '- это современные комплексы с развитой внутренней инфраструктурой (рецепция, охрана, кафе, конференц-залы, (Классы A и A+)',
@@ -457,7 +458,6 @@ const homeTexts = {
     pl: 'Pozostaję Państwa niezawodnym partnerem przez cały okres trwania umowy najmu',
     en: 'I remain your reliable partner throughout the entire term of the lease agreement',
   },
-
   about_title3: {
     ua: 'Офіси в хмарочосах Варшави',
     ru: 'Офисы в небоскребах Варшавы',
