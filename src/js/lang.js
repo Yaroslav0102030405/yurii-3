@@ -19,6 +19,24 @@ function onClickButton2(e) {
 }
 
 const homeTexts = {
+  header_logo: {
+    ua: 'Брокер з нерухомості',
+    ru: 'Брокер по недвижимости',
+    pl: 'Agent nieruchomości',
+    en: 'Real estate broker',
+  },
+  header_logo2: {
+    ua: 'Брокер з нерухомості',
+    ru: 'Брокер по недвижимости',
+    pl: 'Agent nieruchomości',
+    en: 'Real estate broker',
+  },
+  header_logo3: {
+    ua: 'Брокер з нерухомості',
+    ru: 'Брокер по недвижимости',
+    pl: 'Agent nieruchomości',
+    en: 'Real estate broker',
+  },
   // навігація
   'header_menu-home': {
     ua: 'Головна',
@@ -58,16 +76,16 @@ const homeTexts = {
   },
   // hero section
   'header_banner-pre-title': {
-    ua: 'Брокер з оренди офісів у Варшаві для компаній',
-    ru: 'Брокер по аренде офисов в Варшаве для компаний',
-    pl: 'Pośrednik w wynajmie biur w Warszawie dla firm',
-    en: 'Office rental broker in Warsaw for companies',
+    ua: 'Знайду ідеальний офіс в оренду у Варшаві для вашої компанії',
+    ru: 'Найду идеальный офис в аренду в Варшаве для вашей компании',
+    pl: 'Znajdę idealne biuro do wynajęcia w Warszawie dla Twojej firmy',
+    en: 'I will find the perfect office for rent in Warsaw for your company',
   },
   'header_banner-pre-title-2': {
-    ua: '(локальних та міжнародних: від стартапів до корпорацій)',
-    ru: '(локальных и международных: от стартапов до корпораций)',
-    pl: '(lokalne i międzynarodowe: od startupów do korporacji)',
-    en: '(local and international: from startups to corporations)',
+    ua: '(локальної або міжнародної: від стартапу до корпорації)',
+    ru: '(локальной или международной: от стартапа к корпорации)',
+    pl: '(lokalny lub międzynarodowy: od startupu do korporacji)',
+    en: '(local or international: from startup to corporation)',
   },
   // кнопка
   'header_banner-button': {
@@ -233,17 +251,17 @@ const homeTexts = {
     en: 'Price (m²) 15€ - 21€',
   },
   // формат офісу
-  'my-services_title-03': {
-    ua: 'Комплектація офісу',
-    ru: 'Комплектация офиса',
-    pl: 'Sprzęt biurowy',
-    en: 'Office equipment',
-  },
+  // 'my-services_title-03': {
+  //   ua: 'Комплектація офісу',
+  //   ru: 'Комплектация офиса',
+  //   pl: 'Sprzęt biurowy',
+  //   en: 'Office equipment',
+  // },
   'my-services_title-3': {
-    ua: 'офіс може бути адаптований під Ваш Бізнес',
-    ru: 'офис может быть адаптирован под Ваш Бизнес',
-    pl: 'Biuro można dostosować do prowadzonej działalności',
-    en: 'The office can be adapted to your business',
+    ua: 'можливо вибрати комплектацію офісу',
+    ru: 'можно выбрать комплектацию офиса',
+    pl: 'możliwość wyboru wyposażenia biura',
+    en: 'it is possible to choose the office equipment',
   },
   // опис форматів офісу 1
   'my-services-title-11': {
@@ -598,16 +616,16 @@ const homeTexts = {
   },
   // футер мотивація
   contacts_logo2: {
-    ua: 'Безкоштовно знайду офіс у Варшаві під індивідуальні вимоги вашої компанії',
-    ru: 'Бесплатно найду офис в Варшаве под индивидуальные требования вашей компании',
-    pl: 'Bezpłatnie znajdę biuro w Warszawie, dostosowane do indywidualnych potrzeb Twojej firmy',
-    en: 'I will find an office in Warsaw for free, tailored to your company`s individual requirements',
+    ua: 'З питань оренди офісу у Варшаві зв`язатися зі мною',
+    ru: 'По вопросам аренды офиса в Варшаве связаться со мной',
+    pl: 'Jeśli masz pytania dotyczące wynajmu biura w Warszawie, skontaktuj się ze mną',
+    en: 'For questions about renting an office in Warsaw, contact me',
   },
   form_title: {
     ua: 'З питань оренди офісу у Варшаві зв`язатися зі мною',
-    ru: 'Оставьте свои контактные данные для получения консультации',
-    pl: 'Zostaw swoje dane kontaktowe',
-    en: 'Leave your contact details for a consultation',
+    ru: 'По вопросам аренды офиса в Варшаве связаться со мной',
+    pl: 'Jeśli masz pytania dotyczące wynajmu biura w Warszawie, skontaktuj się ze mną',
+    en: 'For questions about renting an office in Warsaw, contact me',
   },
   form_name: {
     ua: 'Ім`я*',
@@ -635,9 +653,9 @@ const homeTexts = {
   },
   form_title2: {
     ua: 'З питань оренди офісу у Варшаві зв`язатися зі мною',
-    ru: 'Оставьте свои контактные данные для получения консультации',
-    pl: 'Zostaw swoje dane kontaktowe',
-    en: 'Leave your contact details for a consultation',
+    ru: 'По вопросам аренды офиса в Варшаве связаться со мной',
+    pl: 'Jeśli masz pytania dotyczące wynajmu biura w Warszawie, skontaktuj się ze mną',
+    en: 'For questions about renting an office in Warsaw, contact me',
   },
   form_name2: {
     ua: 'Ім`я*',

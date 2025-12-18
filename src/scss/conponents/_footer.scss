@@ -32,6 +32,15 @@
   // }
 }
 
+.logo__text {
+  font-size: clamp(12px, 3.25vw, 14px);
+  margin-bottom: 0;
+}
+
+// .color {
+//   color: $bg-color;
+// }
+
 .logo__image {
   margin-right: 10px;
   display: inline-block;
@@ -74,5 +83,5 @@
 
 .hero-title-2 {
   color: $text-color;
-  font-size: clamp(16px, 4.25vw, 24px);
+  font-size: clamp(16px, 4.25vw, 19px);
 }
