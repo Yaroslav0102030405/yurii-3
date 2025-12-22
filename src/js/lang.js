@@ -570,10 +570,10 @@ const homeTexts = {
     en: 'A case I successfully closed for the company',
   },
   'portfolio-title-22': {
-    ua: 'Вимоги: Теплий дизайн офісу з меблями в хмарочоці та виглядом на палац культури і науки',
-    ru: 'Требования: Теплый дизайн офиса с мебелью в небоскребе и видом на дворец культуры и науки',
-    pl: 'Wymagania: Ciepła aranżacja biura z meblami w stylu wieżowca i widokiem na Pałac Kultury i Nauki',
-    en: 'Requirements: Warm office design with skyscraper furniture and a view of the Palace of Culture and Science',
+    ua: 'Вимоги: Офіс із меблями в діловому стилі',
+    ru: 'Офис с мебелью в деловом стиле',
+    pl: 'Biuro z meblami w stylu biznesowym',
+    en: 'Office with business-style furniture',
   },
   'portfolio-title-23': {
     ua: 'Компанія дуже задоволена моєю роботою!',
@@ -583,7 +583,7 @@ const homeTexts = {
   },
   // кейс 3
   'portfolio-title-31': {
-    ua: 'Кейс, який я успішно закрив для для YouTube каналу',
+    ua: 'Кейс, який я успішно закрив для корпорації',
     ru: 'Кейс, который я успешно закрыл для канала YouTube',
     pl: 'Sprawa, którą pomyślnie zamknąłem dla kanału YouTube',
     en: 'A case I successfully closed for the YouTube channel',
@@ -595,10 +595,10 @@ const homeTexts = {
     en: 'Requirements: Office with furniture and a homely atmosphere',
   },
   'portfolio-title-33': {
-    ua: 'Хлопці з іт стартапу залишились довольні!',
-    ru: 'Ребята из ит стартапа остались довольны!',
-    pl: 'Chłopaki ze start-upu IT byli zadowoleni!',
-    en: 'The guys from the IT startup were satisfied!',
+    ua: 'Корпорація залишилась задоволена!',
+    ru: 'Корпорация осталась довольна!',
+    pl: 'Korporacja była zadowolona!',
+    en: 'The corporation was satisfied!',
   },
   // мотивація
   contacts_logo: {
