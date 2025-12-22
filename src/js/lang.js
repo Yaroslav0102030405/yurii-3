@@ -570,7 +570,7 @@ const homeTexts = {
     en: 'A case I successfully closed for the company',
   },
   'portfolio-title-22': {
-    ua: 'Вимоги: Офіс із меблями в діловому стилі',
+    ua: 'Вимоги: Офіс з меблями в діловому стилі',
     ru: 'Офис с мебелью в деловом стиле',
     pl: 'Biuro z meblami w stylu biznesowym',
     en: 'Office with business-style furniture',
