@@ -57,7 +57,6 @@
     <!-- IOS Safari -->
     <meta name="apple-mobile-web-app-status-bar-style" content="#3e4464" />
 
-    <!-- <link rel="manifest" href="./manifest.json"> -->
     <link
       rel="apple-touch-icon"
       sizes="180x180"
@@ -75,8 +74,6 @@
       sizes="16x16"
       href="./favicon-16x16.png"
     />
-    <!-- <link rel="manifest" href="./site.webmanifest" /> -->
-    <!-- 48 симвлолів -->
     <title lang="ru" data-lang="home_page-title">
       Yurii Bukhtii | Оренда офисов в Варшаве
     </title>
@@ -84,10 +81,6 @@
       name="description"
       content="Помогаю иностранному бизнесу – от маленьких стартапов до крупных корпораций – найти лучший офис для введения бизнеса в Варшаве"
     />
-    <!-- <link
-      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
-      rel="stylesheet"
-    /> -->
     <link
       href="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css"
       rel="stylesheet"
@@ -143,14 +136,6 @@
                 >Досвід</a
               >
             </li>
-            <!-- <li>
-              <a
-                class="js-play-sound"
-                href="#advantages"
-                data-lang="header_menu-service"
-                >Переваги</a
-              >
-            </li> -->
             <li>
               <a
                 class="js-play-sound"
@@ -550,6 +535,27 @@
               </p>
             </li>
           </ul>
+        </div>
+      </section>
+
+      <!-- vide -->
+      <section class="advantages">
+        <div class="container">
+          <h2 class="advantages__title" data-lang="video">
+            Відеоогляд офісу в хмарочосі - Varso Tower
+          </h2>
+          <div
+            style="border: 1px solid #ffffff; border-radius: 6px; padding: 15px"
+          >
+            <video
+              id="videoPlayer"
+              controls
+              muted
+              playsinline
+              src="./video/Varso Tower - virtual officevol.2.mp4"
+              style="width: 100%"
+            ></video>
+          </div>
           <a lang="en" class="form__logo-3 js-play-sound" href="#header">
             <img
               loading="lazy"
@@ -1501,21 +1507,6 @@
         <div class="contacts__form">
           <form id="form2" class="form-1 form-2">
             <div class="form2__wrap-logo">
-              <!-- <a
-                lang="en"
-                class="form__logo-1 js-play-sound"
-                href="javascript:void(0);"
-              >
-                <img
-                  loading="lazy"
-                  class="logo__image"
-                  width="50"
-                  height="50"
-                  src="./image/image-logo.webp"
-                  alt="Юрій Бухтій"
-                />
-                Yurii Bukhtii
-              </a> -->
               <a
                 style="margin-bottom: 15px"
                 lang="en"
@@ -1650,5 +1641,27 @@
 
     <script type="module" src="app.js"></script>
     <script type="module" src="./js/modal.js"></script>
+    <script>
+      const video = document.getElementById('videoPlayer');
+
+      const observerOptions = {
+        root: null, // відстежуємо відносно всього екрана
+        threshold: 0.1, // відео реагує, як тільки з'являється/зникає хоча б 10% його площі
+      };
+
+      const observer = new IntersectionObserver(entries => {
+        entries.forEach(entry => {
+          if (entry.isIntersecting) {
+            // Відео в зоні видимості — запускаємо
+            video.play();
+          } else {
+            // Відео вийшло за межі екрана — ставимо на паузу
+            video.pause();
+          }
+        });
+      }, observerOptions);
+
+      observer.observe(video);
+    </script>
   </body>
 </html>

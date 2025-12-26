@@ -302,6 +302,13 @@ const homeTexts = {
     pl: 'Podejmujemy się indywidualnego remontu lokalu według Państwa specyfikacji technicznej. Otrzymują Państwo biuro pod klucz',
     en: 'We undertake individual renovation of the premises according to your technical specifications. You receive a turnkey office',
   },
+  // відео презентація
+  video: {
+    ua: 'Відеоогляд офісу в хмарочосі - Varso Tower',
+    ru: 'Видеообзор офиса в небоскребе - Varso Tower',
+    pl: 'Wideoprzewodnik po biurze w wieżowcu Varso Tower',
+    en: 'Video tour of the office in the skyscraper - Varso Tower',
+  },
   // мотиви обрати мене
   contacts_logo3: {
     ua: 'Шукаєте офіс у Варшаві? Звертайтеся і я запропоную Вам найкращі варіанти +48 735 775 810',
@@ -361,10 +368,10 @@ const homeTexts = {
   },
   // переваги
   'advantages_title-2': {
-    ua: 'Чому клієнти обираєть мене',
-    ru: 'Почему клиенты выбирают меня',
-    pl: 'Dlaczego klienci mnie wybierają',
-    en: 'Why clients choose me',
+    ua: 'Чому обираєть мене',
+    ru: 'Почему выбирают меня',
+    pl: 'Dlaczego mnie wybierają',
+    en: 'Why choose me',
   },
   'advantages_pre-title-4': {
     ua: 'Ексклюзивна база офісів',
@@ -399,10 +406,10 @@ const homeTexts = {
   },
   // процес підбору офісу
   'my-services-title-4': {
-    ua: 'Професійний підбір та супровід з оренди офісу',
-    ru: 'Профессиональный подбор и сопровождение по аренде офиса',
-    pl: 'Profesjonalny dobór i wsparcie w wynajmie biur',
-    en: 'Professional selection and support for office rental',
+    ua: 'Процес підбору офісу та супровід',
+    ru: 'Процесс подбора офиса и сопровождение',
+    pl: 'Proces wyboru biura i wsparcie',
+    en: 'Office selection process and support',
   },
   'my-services-title-41': {
     ua: '1. Аналіз потреб орендаря',
