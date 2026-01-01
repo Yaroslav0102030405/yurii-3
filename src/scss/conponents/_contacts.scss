@@ -1,10 +1,7 @@
 .contacts {
-  // position: relative;
   background-color: $bg-2;
   @extend %section-padding;
 
-  // background: linear-gradient(to right, #3e446457, #e4c9a23b),
-  //   url(/src/image/contacts/h-22.webp);
   background-repeat: no-repeat;
   background-position: center top;
   background-size: cover;
@@ -32,13 +29,12 @@
 }
 
 .form-1 {
-  // position: relative;
   margin-left: auto;
   padding: 15px;
   width: 100%;
   max-width: 520px;
-  background-color: $accent-text;
-  border: 2px solid $bg-color;
+  background-color: $bg-color;
+  border: 2px solid $text-color;
   border-radius: 6px;
 }
 
@@ -76,7 +72,7 @@
 
 .form__input-name {
   margin-bottom: 5px;
-  color: $bg-color;
+  color: $text-color;
   font-size: 20px;
   font-size: clamp(14px, 4.25vw, 16px);
   cursor: text;
@@ -86,10 +82,11 @@
   // font-weight: 400px;
   margin-top: 10px;
   margin-bottom: 5px;
-  color: $bg-color;
+  color: $text-color;
   text-align: center;
   // font-size: 23px;
-  font-size: clamp(16px, 5.25vw, 17px);
+  // font-size: clamp(16px, 5.25vw, 17px);
+  font-size: 16px;
   cursor: text;
 }
 
@@ -98,10 +95,10 @@
   margin-bottom: 10px;
   padding: 15px;
   width: 100%;
-  color: $bg-color;
+  color: $accent-text;
   background-color: #3e446424;
   border-radius: 6px;
-  border: 1px solid $accent-text;
+  border: 1px solid $text-color;
 }
 
 .form__1-input::placeholder {
@@ -115,9 +112,9 @@
 .form__1-textarea {
   margin-bottom: 20px;
   padding: 12px 15px;
-  border: 1px solid $accent-text;
+  border: 1px solid $text-color;
   width: 100%;
-  color: $bg-color;
+  color: $accent-text;
   background-color: #3e446424;
   resize: none;
   border-radius: 6px;
@@ -126,7 +123,8 @@
 .form__button {
   width: 100%;
   max-width: 506px;
-  color: $accent-text;
+  border: 1px solid $text-color;
+  color: $text-color;
   background-color: $bg-2;
 }
 
@@ -146,22 +144,6 @@ textarea:focus:valid {
   border: solid 2px #18e109;
 }
 
-// .contacts__overlay {
-//   position: absolute;
-//   top: 0;
-//   left: 0;
-//   // height: 815px;
-//   width: 100%;
-//   height: 100%;
-//   z-index: -1;
-//   background-image: linear-gradient(to right, #3e4464ba, #6c5f4d85),
-//     url(/src/image/contacts/contacts-bg.webp);
-//   background-repeat: no-repeat;
-//   background-position: center top;
-//   background-size: cover;
-//   background-attachment: fixed;
-// }
-
 .contacts__text {
   padding: 15px;
   background-color: #454d71;
@@ -175,26 +157,13 @@ textarea:focus:valid {
   background-repeat: no-repeat;
   background-position: center top;
   background-size: cover;
-  // cursor: text;
-  // @media screen and (max-width: 580px) {
-  //   font-size: 14px;
-  // }
 }
 
 .contacts__text1 {
   text-align: center;
   font-weight: 600;
   color: $text-color;
-  // padding: 15px;
-  // background-color: #454d71;
-  // border-radius: 6px;
-  // box-shadow: 0 3px 8px #0000003d;
   font-size: clamp(25px, 4.25vw, 42px);
-  // border: 1px solid $text-color;
-  // cursor: text;
-  // @media screen and (max-width: 580px) {
-  //   font-size: 14px;
-  // }
 }
 
 .form__none1 {

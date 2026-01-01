@@ -60,7 +60,7 @@
 }
 
 .icon {
-  fill: $bg-2;
+  fill: $text-color;
   // border: 1px solid $accent-text;
   // background-color: white;
   // border-radius: 50%;
@@ -74,7 +74,7 @@
 .icon:focus {
   transform: translateY(-3px);
   // @extend %button__hover;
-  fill: #ff2400;
+  fill: $accent-text;
 }
 
 .title-projects {

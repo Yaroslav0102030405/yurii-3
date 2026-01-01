@@ -36,11 +36,12 @@
 
 .js-close-modal {
   display: block;
+  border: none;
   // position: absolute;
   margin-left: auto;
   background-color: transparent;
-  border: 1px solid $accent-text;
-  border-radius: 50%;
+  // border: 1px solid $accent-text;
+  // border-radius: 50%;
   padding: 10px;
   cursor: url('image/cursor/cursor-2.png'), auto;
 }
