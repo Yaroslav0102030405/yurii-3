@@ -180,7 +180,7 @@ textarea:focus:valid {
 }
 
 .form__answer-text1 {
-  color: $bg-color;
+  color: $text-color;
   font-size: 20px;
   @media screen and (max-width: 580px) {
     font-size: 14px;
@@ -188,7 +188,7 @@ textarea:focus:valid {
 }
 
 .form__answer-text {
-  color: $bg-color;
+  color: $text-color;
   font-size: 20px;
   @media screen and (max-width: 580px) {
     font-size: 14px;
