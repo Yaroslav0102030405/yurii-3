@@ -271,10 +271,10 @@ const homeTexts = {
     en: 'Office without furniture',
   },
   'my-services-desc-11': {
-    ua: 'Ви отримуєте приміщення без оздоблення, з усіма підведеними комунікаціями. Повний простір для втілення будь-яких ваших рішень',
-    ru: 'Вы получаете помещение без отделки, со всеми подведенными коммуникациями. Полное пространство для воплощения любых ваших решений',
-    pl: 'Dostajesz pokój bez dekoracji, ze wszystkimi mediami podłączonymi. Pełna przestrzeń do realizacji Twoich decyzji',
-    en: 'You get a room without decoration, with all communications connected. Full space for the implementation of any of your decisions',
+    ua: 'Компанія отримує приміщення без оздоблення, з усіма підведеними комунікаціями. Повний простір для втілення будь-яких ваших рішень',
+    ru: 'Компания получает помещение без отделки, со всеми подведенными коммуникациями. Полное пространство для воплощения любых ваших решений',
+    pl: 'Firma otrzymuje lokal bez dekoracji, z pełną komunikacją. Pełna przestrzeń do realizacji dowolnych decyzji',
+    en: 'The company receives premises without decoration, with all communications connected. Full space for the implementation of any of your decisions',
   },
   // опис форматів офісу 2
   'my-services-title-22': {
@@ -291,10 +291,10 @@ const homeTexts = {
   },
   // опис форматів офісу 3
   'my-services-title-33': {
-    ua: 'Офіс з ремонтом під клієнта',
-    ru: 'Офис с ремонтом под клиента',
-    pl: 'Biuro odnowione dla klienta',
-    en: 'Office renovated for the client',
+    ua: 'Офіс з ремонтом під компанію',
+    ru: 'Офис с ремонтом под компанию',
+    pl: 'Biuro po remoncie dla firmy',
+    en: 'Office with renovation for the company',
   },
   'my-services-desc-33': {
     ua: 'Ми беремо на себе виконання індивідуального ремонту приміщення згідно з вашим технічним завданням. Ви отримуєте офіс "під ключ"',
@@ -318,10 +318,10 @@ const homeTexts = {
   },
   // про мене
   about_title: {
-    ua: 'Ваш брокер у Варшаві',
-    ru: 'Ваш брокер в Варшаве',
-    pl: 'Twój broker w Warszawie',
-    en: 'Your broker in Warsaw',
+    ua: 'Ваш партнер з нерухомості у Варшаві',
+    ru: 'Ваш партнер по недвижимости в Варшаве',
+    pl: 'Twój partner w nieruchomościach w Warszawie',
+    en: 'Your real estate partner in Warsaw',
   },
   // опис про мене
   about_description: {
@@ -331,10 +331,10 @@ const homeTexts = {
     en: 'Hello! My name is Yurii Bukhtii',
   },
   about_description2: {
-    ua: 'Брокер з оренди офісів у Варшаві з досвідом 3 роки. Я допомагаю іноземному бізнесу — від маленьких стартапів до великих корпорацій — знайти ідеальний офіс під оренду для введення бізнесу у Варшаві',
-    ru: 'Брокер по аренде коммерческой недвижимости в Варшаве с опытом 5 лет. Я помогаю иностранному бизнесу – от маленьких стартапов до крупных корпораций – найти идеальный офис в аренду для введения бизнеса в Варшаве',
-    pl: 'Pośrednik w wynajmie nieruchomości komercyjnych w Warszawie z 5-letnim doświadczeniem. Pomagam zagranicznym firmom — od małych startupów po duże korporacje — znaleźć idealne biuro do wynajęcia, aby rozpocząć działalność w Warszawie',
-    en: 'Commercial real estate rental broker in Warsaw with 5 years of experience. I help foreign businesses — from small startups to large corporations — find the perfect office for rent to launch their business in Warsaw',
+    ua: 'Брокер — що спеціалізується виключно на представленні інтересів міжнародного бізнесу на ринку комерційної нерухомості Польщі. Я не просто шукаю офіси — я забезпечую «м’яку посадку» вашого бізнесу, мінімізуючи ризики та оптимізуючи операційні витрати',
+    ru: 'Брокер — специализирующийся исключительно на представлении интересов международного бизнеса на рынке коммерческой недвижимости Польши. Я не просто ищу офисы — я обеспечиваю «мягкую посадку» вашего бизнеса, минимизируя риски и оптимизируя операционные расходы',
+    pl: 'Broker — specjalizujący się wyłącznie w reprezentowaniu interesów międzynarodowych firm na polskim rynku nieruchomości komercyjnych. Nie szukam tylko biur – zapewniam „miękkie lądowanie” dla Twojej firmy, minimalizując ryzyko i optymalizując koszty operacyjne',
+    en: 'Broker — specializing exclusively in representing the interests of international businesses in the Polish commercial real estate market. I don`t just look for offices - I ensure a "soft landing" for your business, minimizing risks and optimizing operating costs',
   },
   about_description3: {
     ua: 'Чим я корисний?',
@@ -343,35 +343,35 @@ const homeTexts = {
     en: 'How can I be useful?',
   },
   about_description4: {
-    ua: '1. Я знаю ринок і постійно вивчаю пропозиції Варшави і завжди пропоную лише актуальні та найвигідніші варіанти',
-    ru: '1. Я знаю рынок и постоянно изучаю предложения Варшавы и всегда предлагаю только самые актуальные и выгодные варианты',
-    pl: '1. Znam rynek, stale analizuję oferty Warszawy i zawsze oferuję tylko najbardziej trafne i opłacalne opcje',
-    en: '1. I know the market and constantly study Warsaw`s offers and always offer only the most relevant and profitable options',
+    ua: '1. Я розумію складність корпоративних процедур. Вся моя комунікація, звітність та юридичний супровід відповідають вимогам глобального комплаєнсу',
+    ru: '1. Я понимаю сложность корпоративных процедур. Вся моя коммуникация, отчетность и юридическое сопровождение отвечают требованиям глобального комплаенса',
+    pl: '1. Rozumiem złożoność procedur korporacyjnych. Cała moja komunikacja, raportowanie i wsparcie prawne spełniają globalne wymogi zgodności',
+    en: '1. I understand the complexity of corporate procedures. All my communications, reporting, and legal support meet global compliance requirements',
   },
   about_description5: {
-    ua: '2. Я думаю про Ваш бізнес, а не просто шукаю квадратні метри. Я розбираюся у Ваших потребах, щоб знайти місце, яке дійсно допоможе Вашому бізнесу зрости',
-    ru: '2. Я думаю о Вашем бизнесе, а не просто ищу квадратные метры. Я разбираюсь в ваших потребностях, чтобы найти место, которое действительно поможет вашему бизнесу возрасти',
-    pl: '2. Myślę o Twoim biznesie, a nie tylko o metrażu. Rozumiem Twoją potrzebę znalezienia lokalizacji, która naprawdę pomoże Twojemu biznesowi się rozwijać',
-    en: '2. I think about your business, not just looking for square footage. I understand your needs to find a location that will truly help your business grow',
+    ua: '2. Ринок Варшави має свої нюанси. Я знаю про майбутні об`єкти ще до того, як вони з`являться на ринку, і розуміємо реальну технічну специфікацію кожної будівлі класу А',
+    ru: '2. Рынок Варшавы имеет свои нюансы. Я знаю о будущих объектах еще до того, как они появятся на рынке, и понимаем реальную техническую спецификацию каждого здания класса А',
+    pl: '2. Rynek warszawski ma swoje niuanse. Znam nadchodzące nieruchomości, zanim pojawią się na rynku, i rozumiemy rzeczywiste parametry techniczne każdego budynku klasy A',
+    en: '2. The Warsaw market has its own nuances. I know about upcoming properties before they appear on the market, and we understand the real technical specifications of each Class A building',
   },
   about_description6: {
-    ua: '3. Я супроводжую Вас від першої розмови до моменту, коли Ви підписуєте договір оренди та після, якщо у вас виникнуть якісь додаткові питання. Я завжди на зв`язку з вами і готовий допомогти',
-    ru: '3. Я сопровождаю вас от первого разговора до момента, когда вы подписываете договор аренды и после, если у вас возникнут какие-либо дополнительные вопросы. Я всегда на связи с вами и готов помочь',
-    pl: '3. Będę Ci towarzyszyć od pierwszej rozmowy, aż do podpisania umowy najmu, a także po jej zakończeniu, jeśli będziesz mieć dodatkowe pytania. Jestem zawsze w kontakcie i chętnie pomogę',
-    en: '3. I will accompany you from the first conversation until you sign the lease agreement and after that, if you have any additional questions. I am always in touch with you and ready to help',
+    ua: '3. У моєму фокусі — лише енергоефективні будівлі з сертифікатами BREEAM/LEED, які відповідають екологічним цілям вашої компанії',
+    ru: '3. В моем фокусе только энергоэффективные здания с сертификатами BREEAM/LEED, которые отвечают экологическим целям вашей компании',
+    pl: '3. Skupiam się wyłącznie na budynkach energooszczędnych, posiadających certyfikaty BREEAM/LEED, które spełniają cele środowiskowe Twojej firmy',
+    en: '3. My focus is only on energy-efficient buildings with BREEAM/LEED certificates that meet your company`s environmental goals',
   },
   about_description7: {
-    ua: 'Я ваш надійним партнером у Варшаві. Якщо Ви готові щоб я знайшов вам ідеальний офіс, просто зателефонуйте мені +48 735 775 810',
-    ru: 'Я ваш надежный партнер в Варшаве. Если Вы готовы, чтобы я нашел вам идеальный офис, просто напишите или позвоните мне +48 735 775 810',
-    pl: 'Jestem Twoim niezawodnym partnerem w Warszawie. Jeśli chcesz, abym znalazł dla Ciebie idealne biuro, po prostu napisz lub zadzwoń do mnie +48 735 775 810',
-    en: 'I am your reliable partner in Warsaw. If you are ready for me to find you the perfect office, just write or call me +48 735 775 810',
+    ua: 'Моя мета — вибити для вас найкращі умови: від максимальних орендних канікул до бюджетів на оздоблення (Fit-out contributions)',
+    ru: 'Моя цель – выбить для вас наилучшие условия: от максимальных арендных каникул до бюджетов на отделку (Fit-out contributions)',
+    pl: 'Moim celem jest zapewnienie Ci najlepszej możliwej oferty: od maksymalnego wynajmu wakacyjnego po dofinansowanie wyposażenia (fit-out)',
+    en: 'My goal is to get you the best deal possible: from maximum rental vacations to fit-out contributions.',
   },
   // переваги
   'advantages_title-2': {
-    ua: 'Чому обираєть мене',
-    ru: 'Почему выбирают меня',
-    pl: 'Dlaczego mnie wybierają',
-    en: 'Why choose me',
+    ua: 'Чому компанії обираєть мене',
+    ru: 'Почему омпании выбирают меня',
+    pl: 'Dlaczego firmy wybierają mnie',
+    en: 'Why companies choose me',
   },
   'advantages_pre-title-4': {
     ua: 'Ексклюзивна база офісів',
@@ -412,10 +412,10 @@ const homeTexts = {
     en: 'Office selection process',
   },
   'my-services-title-41': {
-    ua: '1. Аналіз потреб орендаря',
-    ru: '1. Анализ потребностей арендатора',
-    pl: '1. Analiza potrzeb najemców',
-    en: '1. Tenant needs analysis',
+    ua: '1. Аналіз потреб компанії',
+    ru: '1. Анализ потребностей компании',
+    pl: '1. Analiza potrzeb firmy',
+    en: '1. Analysis of company needs',
   },
   'my-services-title-42': {
     ua: 'Я починаю з консультації, щоб зрозуміти ваші потреби, бізнес-цілі та вимоги до локації офісу',
@@ -430,10 +430,10 @@ const homeTexts = {
     en: '2. Analysis of available premises',
   },
   'my-services-title-44': {
-    ua: 'Клієнт отримує перелік доступних об`єктів, які ідеально відповідають його критеріям',
-    ru: 'Клиент получает список доступных объектов, которые идеально отвечают его критериям',
-    pl: 'Klient otrzymuje listę dostępnych nieruchomości, które idealnie odpowiadają jego kryteriom',
-    en: 'The client receives a list of available properties that perfectly match his criteria',
+    ua: 'Компанія отримує перелік доступних об`єктів, які ідеально відповідають його критеріям',
+    ru: 'Компания получает перечень доступных объектов, идеально отвечающих его критериям',
+    pl: 'Firma otrzymuje listę dostępnych nieruchomości, które idealnie odpowiadają jej kryteriom',
+    en: 'The company receives a list of available properties that perfectly match its criteria',
   },
   'my-services-title-45': {
     ua: '3. Перегляд обраних приміщень',
@@ -448,10 +448,10 @@ const homeTexts = {
     en: 'I arrange meetings with owners and organize field presentations of all selected properties',
   },
   'my-services-title-47': {
-    ua: '4. Технічна підтримка орендаря',
-    ru: '4. Техническая поддержка арендатора',
-    pl: '4. Wsparcie techniczne najemcy',
-    en: '4. Tenant technical support',
+    ua: '4. Технічна підтримка компанії',
+    ru: '4. Техническая поддержка компании',
+    pl: '4. Wsparcie techniczne firmy',
+    en: '4. Company technical support',
   },
   'my-services-title-48': {
     ua: 'Надаю аналіз приміщення від наших архітекторів щоб розрахувати потенційну кількість робочих місць',
@@ -613,6 +613,49 @@ const homeTexts = {
     ru: 'В общем, я успешно помог уже 40 компаниям найти офис в аренду. Буду рад помочь и вам!',
     pl: 'W sumie pomogłem ponad 50 firmom znaleźć biuro do wynajęcia. Chętnie pomogę również Tobie!',
     en: 'In total, I have successfully helped over 50 companies find an office for rent. I would be happy to help you too!',
+  },
+  // питання та відповіді
+  questions: {
+    ua: 'Запитання та відповіді (Q&A)',
+    ru: 'Вопросы и ответы (Q&A)',
+    pl: 'Pytania i odpowiedzi (Q&A)',
+    en: 'Questions and Answers (Q&A)',
+  },
+  'questions-1': {
+    ua: 'Орендна ставка може бути привабливою, але експлуатаційні витрати та рахунки за енергію часто неприємний сюрприз? Я надаю прозорий розрахунок усіх витрат ще до підписання договору оренди',
+    ru: 'Арендная ставка может быть привлекательной, но эксплуатационные расходы и счета за энергию часто неприятный сюрприз? Я предоставляю прозрачный расчет всех расходов еще до подписания договора аренды',
+    pl: 'Stawka czynszu może być atrakcyjna, ale koszty eksploatacji i rachunki za energię często bywają niemiłą niespodzianką? Zapewniam przejrzyste wyliczenie wszystkich kosztów jeszcze przed podpisaniem umowy najmu',
+    en: 'The rental rate may be attractive, but operating costs and energy bills are often an unpleasant surprise? I provide a transparent calculation of all costs even before signing the lease agreement',
+  },
+  'questions-2': {
+    ua: 'Ми компанія і боїмося підписувати контракт на 5 років, якщо через рік нам може знадобитися вдвічі більше місця? Є можливість розширення офісу в межах однієї будівлі або гнучкі терміни оренди',
+    ru: 'Мы компания и боимся подписывать контракт на пять лет, если через год нам может понадобиться вдвое больше места? Есть возможность расширения офиса в пределах одного здания или гибкие сроки аренды',
+    pl: 'Jesteśmy firmą i boimy się podpisać umowę na 5 lat, skoro za rok możemy potrzebować dwa razy więcej powierzchni? Czy istnieje możliwość powiększenia biura w tym samym budynku lub elastyczne warunki najmu',
+    en: 'We are a company and are afraid to sign a 5-year contract if in a year we may need twice as much space? Is there a possibility of expanding the office within the same building or flexible lease terms',
+  },
+  'questions-3': {
+    ua: 'Ми малий бізнес і нас великі фонди не будуть слухати або нав`яжуть невигідні умови? Я — ваш сильний голос у переговорах. Домовлюся про умови, які зазвичай отримують лише корпорації',
+    ru: 'Мы малый бизнес, и нас большие фонды не будут слушать или навяжут невыгодные условия? Я ваш сильный голос в переговорах. Договорюсь об условиях, которые обычно получают только корпорации',
+    pl: 'Jesteśmy małą firmą, a duże fundusze nie chcą nas słuchać lub narzucają nam niekorzystne warunki? Jestem Twoim silnym głosem w negocjacjach. Wynegocjuję warunki, które zazwyczaj otrzymują tylko korporacje',
+    en: 'We are a small business and large funds will not listen to us or will impose unfavorable conditions on us? I am your strong voice in negotiations. I will negotiate conditions that only corporations usually get',
+  },
+  'questions-4': {
+    ua: 'Потрібно, щоб співробітникам було зручно добиратися (метро, трамваї), а поруч були недорогі ланч-кафе? Я підберу офіс в районах зі зручною логістикою (Mokotów, Wola, Ochota) та розвиненою інфраструктурою',
+    ru: 'Нужно, чтобы сотрудникам было удобно добираться (метро, ​​трамваи), а рядом были недорогие ланч-кафе? Я подберу офис в районах с удобной логистикой (Mokotów, Wola, Ochota) и развитой инфраструктурой',
+    pl: 'Potrzebujesz wygodnego transportu dla pracowników (metro, tramwaje) i niedrogich kawiarni w pobliżu? Wybiorę biuro w lokalizacjach z dogodną logistyką (Mokotów, Wola, Ochota) i rozwiniętą infrastrukturą',
+    en: 'Do you need employees to have convenient transportation (metro, trams), and inexpensive lunch cafes nearby? I will choose an office in areas with convenient logistics (Mokotów, Wola, Ochota) and developed infrastructure',
+  },
+  'questions-5': {
+    ua: 'Польське законодавство (VAT, індексація орендної плати, вимоги BHP) незрозуміло для нашого головного офісу в Нью-Йорку? Я надаю повний юридичний супровід та договори англійською мовою, що відповідають міжнародним стандартам',
+    ru: 'Польское законодательство (VAT, индексация арендной платы, требования BHP) непонятно для нашего головного офиса в Нью-Йорке? Я предоставляю полное юридическое сопровождение и договоры на английском языке, соответствующие международным стандартам',
+    pl: 'Polskie przepisy (VAT, indeksacja czynszów, wymogi BHP) są niejasne dla naszej centrali w Nowym Jorku? Zapewniam pełne wsparcie prawne i umowy w języku angielskim, zgodne z międzynarodowymi standardami',
+    en: 'Polish legislation (VAT, rent indexation, BHP requirements) is unclear to our head office in New York? I provide full legal support and contracts in English that meet international standards',
+  },
+  'questions-6': {
+    ua: 'Ми глобальна корпорація і нам треба орендувати офіс з сертифікатами BREEAM або LEED? Я підберу офіс у будівлях класу А з високим рейтингом енергоефективності та екологічними сертифікатами',
+    ru: 'Мы глобальная корпорация, и нам нужно арендовать офис с сертификатами BREEAM или LEED? Я подберу офис в зданиях класса А с высоким рейтингом энергоэффективности и экологическими сертификатами',
+    pl: 'Jesteśmy globalną korporacją i potrzebujemy wynająć biuro z certyfikatami BREEAM lub LEED? Wybiorę biuro w budynkach klasy A z wysokimi wskaźnikami efektywności energetycznej i certyfikatami środowiskowymi',
+    en: 'We are a global corporation and need to rent an office with BREEAM or LEED certificates? I will choose an office in class A buildings with high energy efficiency ratings and environmental certificates',
   },
   // екекекек
   'header_banner-name': {

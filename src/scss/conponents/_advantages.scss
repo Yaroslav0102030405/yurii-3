@@ -144,3 +144,46 @@
   padding: 18px;
   width: 70px;
 }
+
+.advantages__item-3 {
+  display: flex;
+  // flex-direction: column;
+  align-items: center;
+  // width: 31.7%;
+  padding: 30px;
+  background-color: #454d71;
+  border-radius: 6px;
+  text-align: center;
+  border: 1px solid $text-color;
+  transition: border 250ms linear;
+
+  background: linear-gradient(to right, #3e446457, #e4c9a23b),
+    url(/src/image/background/2aa.avif);
+  background-repeat: no-repeat;
+  background-position: center top;
+  background-size: cover;
+
+  width: 100%;
+
+  @media screen and (max-width: 500px) {
+    display: block;
+    padding: 17px;
+  }
+}
+
+.advantages__text-3 {
+  text-align: left;
+  margin-left: 20px;
+  margin-bottom: 0;
+  color: $text-color;
+  // font-weight: 700;
+  font-size: 20px;
+  font-size: clamp(14px, 4.25vw, 16px);
+  transition: color 250ms linear;
+  cursor: text;
+
+  @media screen and (max-width: 500px) {
+    margin-left: 0;
+    margin-top: 17px;
+  }
+}
