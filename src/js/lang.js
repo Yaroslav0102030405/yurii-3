@@ -102,6 +102,13 @@ const homeTexts = {
     en: 'Or call +48 735 775 810',
   },
   // my services
+  'advantages_title-1': {
+    ua: 'Забудьте про перегляд сотень оголошень про оренду офісів. Більшість з них — неактуальні, або мають приховані недоліки: погана вентиляція, малий паркінг, слабкий інтернет. Я знаю ринок Варшави зсередини, тому відсіюю все зайве. Ви отримаєте 3–5 найкращих варіантів, які на 100% відповідають вашим вимогам',
+    ru: 'Забудьте о просмотре сотен объявлений об аренде офисов. Большинство из них – неактуальны, или имеют скрытые недостатки: плохая вентиляция, малый паркинг, слабый интернет. Я знаю рынок Варшавы изнутри, потому отсеиваю все лишнее. Вы получите 3–5 лучших вариантов, которые на 100% отвечают вашим требованиям',
+    pl: 'Zapomnij o przeglądaniu setek ogłoszeń wynajmu biur. Większość z nich jest nieistotna lub ma ukryte wady: słabą wentylację, mały parking, słaby internet. Znam warszawski rynek od podszewki, więc filtruję wszystko, co zbędne. Otrzymasz 3-5 najlepszych ofert, które w 100% spełnią Twoje wymagania',
+    en: 'Forget about browsing through hundreds of office rental ads. Most of them are irrelevant or have hidden flaws: poor ventilation, small parking, weak internet. I know the Warsaw market inside out, so I filter out everything unnecessary. You will get 3-5 best options that 100% meet your requirements',
+  },
+  // my services
   'my-services_title-2': {
     ua: 'Я пропоную',
     ru: 'Я предлагаю',

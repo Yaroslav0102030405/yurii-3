@@ -7,6 +7,28 @@
   }
 }
 
+.advantages__title-1 {
+  font-size: 16px;
+  color: $text-color;
+  padding: 30px;
+  border: 1px solid $text-color;
+  border-radius: 6px;
+  // font-weight: 400px;
+  margin-bottom: 100px;
+  font-size: clamp(14px, 4.25vw, 30px);
+
+  background: linear-gradient(to right, #3e446457, #21253e),
+    url(/src/image/background/2aa.avif);
+  background-repeat: no-repeat;
+  background-position: center top;
+  background-size: cover;
+
+  @media screen and (max-width: 580px) {
+    padding: 17px;
+    margin-bottom: 40px;
+  }
+}
+
 .advantages__title {
   @extend %title;
   cursor: text;
