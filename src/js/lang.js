@@ -117,22 +117,22 @@ const homeTexts = {
   },
   // опис послуг 1
   'my-services-desc-1': {
-    ua: 'Офіси в офісних будівлях від 2200€ до 5500€/місяць',
-    ru: 'Офисы в офисных зданиях от 2200 € до 5500 €/месяц',
-    pl: 'Biura w budynkach biurowych od 2200 do 5500 euro/miesiąc',
-    en: 'Offices in office buildings from €2,200 to €5,500/month',
+    ua: 'Офіси в офісних будівлях від 2200€ до 6000€/місяць',
+    ru: 'Офисы в офисных зданиях от 2200€ до 6000€/месяц',
+    pl: 'Biura w budynkach biurowych od 2200€ do 6000€/miesiąc',
+    en: 'Offices in office buildings from €2200€ to 6000€/month',
   },
   'my-services-desc-2': {
-    ua: 'Офіси в бізнес-центрах від 6000€ до 7700€/місяць',
-    ru: 'Офисы в бизнес-центрах от 6000€ до 7700€/месяц',
-    pl: 'Biura w centrach biznesowych od 6000 do 7700 euro/miesiąc',
-    en: 'Offices in business centers from €6,000 to €7,700/month',
+    ua: 'Офіси в бізнес-центрах від 7500€ до 13000€/місяць',
+    ru: 'Офисы в бизнес-центрах от 7500€ до 13000€/месяц',
+    pl: 'Biura w centrach biznesowych od 7500€ do 13000€/miesiąc',
+    en: 'Offices in business centers from 7500€ to 13000€/month',
   },
   'my-services-desc-3': {
-    ua: 'Офіси в хмарочосах Варшави від 8000€ до 13000€/місяць',
-    ru: 'Офисы в небоскребах Варшавы от 8000€ до 13000€/месяц',
-    pl: 'Biura w warszawskich wieżowcach od 8 000 do 13 000 euro/miesiąc',
-    en: 'Offices in Warsaw skyscrapers from €8,000 to €13,000/month',
+    ua: 'Офіси в хмарочосах Варшави від 15000€ до 62500€/місяць',
+    ru: 'Офисы в небоскребах Варшавы от 15000€ до 62500€/месяц',
+    pl: 'Biura w warszawskich wieżowcach od 15000€ do 62500€/miesiąc',
+    en: 'Offices in Warsaw skyscrapers from 15000€ to 62500€/month',
   },
   about_title1: {
     ua: 'Офіси в офісних будівлях',
@@ -165,16 +165,22 @@ const homeTexts = {
     en: 'Suitable for: Small and medium businesses, local companies that value functionality and parking',
   },
   about_description06: {
-    ua: 'Престиж: Низький/Середній',
-    ru: 'Престиж: Низкий/Средний',
-    pl: 'Prestiż: niski/średni',
-    en: 'Prestige: Low/Medium',
+    ua: 'Престиж: Низький/Середній/Високий',
+    ru: 'Престиж: Низкий/Средний/Высокий',
+    pl: 'Prestiż: niski/średni/wysoki',
+    en: 'Prestige: Low/Medium/High',
   },
   about_description07: {
-    ua: 'Ціна (м²) 12€ - 14€',
-    ru: 'Цена (м²) 12€ - 14€',
-    pl: 'Cena (m²) 12€ - 14€',
-    en: 'Price (m²) 12€ - 14€',
+    ua: 'Ціна (м²) 12€ - 18€',
+    ru: 'Цена (м²) 12€ - 18€',
+    pl: 'Cena (m²) 12€ - 18€',
+    en: 'Price (m²) 12€ - 18€',
+  },
+  about_description08: {
+    ua: 'Площа офісів: від 150 м² до 300 м²',
+    ru: 'Площадь офисов: от 150 м² до 300 м²',
+    pl: 'Powierzchnia biurowa: od 150 m² do 300 m²',
+    en: 'Office area: from 150 m² to 300 m²',
   },
   // опис послуга 2
   about_title2: {
@@ -219,6 +225,12 @@ const homeTexts = {
     pl: 'Cena (m²) 22€ - 25€',
     en: 'Price (m²) 22€ - 25€',
   },
+  about_description0888: {
+    ua: 'Площа офісів: від 700 м² до 2500 м²',
+    ru: 'Площадь офисов: от 700 м² до 2500 м²',
+    pl: 'Powierzchnia biurowa: od 700 m² do 2500 m²',
+    en: 'Office area: from 700 m² to 2500 m²',
+  },
   // опис послуга 3
 
   about_description022: {
@@ -256,6 +268,12 @@ const homeTexts = {
     ru: 'Цена (м²) 15€ - 21€',
     pl: 'Cena (m²) 15€ - 21€',
     en: 'Price (m²) 15€ - 21€',
+  },
+  about_description088: {
+    ua: 'Площа офісів: від 500 м² до 700 м²',
+    ru: 'Площадь офисов: от 500 м² до 700 м²',
+    pl: 'Powierzchnia biurowa: od 500 m² do 700 m²',
+    en: 'Office area: from 500 m² to 700 m²',
   },
   // формат офісу
   // 'my-services_title-03': {
@@ -308,6 +326,84 @@ const homeTexts = {
     ru: 'Мы берем на себя выполнение индивидуального ремонта помещения согласно вашему техническому заданию. Вы получаете офис "под ключ"',
     pl: 'Podejmujemy się indywidualnego remontu lokalu według Państwa specyfikacji technicznej. Otrzymują Państwo biuro pod klucz',
     en: 'We undertake individual renovation of the premises according to your technical specifications. You receive a turnkey office',
+  },
+  office__title: {
+    ua: 'Ви отримаєте офіс класу А — усе включено',
+    ru: 'Вы получите офис класса А — все включено',
+    pl: 'Otrzymasz biuro klasy A — wszystko w cenie',
+    en: 'You will receive a class A office — all included',
+  },
+  office__1: {
+    ua: 'Сучасна вентиляція та кондиціонування повітря',
+    ru: 'Современная вентиляция и кондиционирование воздуха',
+    pl: 'Nowoczesna wentylacja i klimatyzacja',
+    en: 'Modern ventilation and air conditioning',
+  },
+  office__2: {
+    ua: 'високий рівень енергоефективності',
+    ru: 'высокий уровень энергоэффективности',
+    pl: 'wysoki poziom efektywności energetycznej',
+    en: 'high level of energy efficiency',
+  },
+  office__3: {
+    ua: 'високошвидкісний Wi-Fi',
+    ru: 'высокоскоростной Wi-Fi',
+    pl: 'szybkie Wi-Fi',
+    en: 'high-speed Wi-Fi',
+  },
+  office__4: {
+    ua: 'Доступність 24/7',
+    ru: 'Доступность 24/7',
+    pl: 'Dostępność 24/7',
+    en: '24/7 availability',
+  },
+  office__5: {
+    ua: 'Цілодобовий захист',
+    ru: 'Круглосуточная защита',
+    pl: 'Ochrona 24/7',
+    en: '24/7 protection',
+  },
+  office__6: {
+    ua: 'Служба реєстрації',
+    ru: 'Служба регистрации',
+    pl: 'Usługa rejestracyjna',
+    en: 'Registration service',
+  },
+  office__7: {
+    ua: 'Конференц-зали',
+    ru: 'Конференц-залы',
+    pl: 'Sale konferencyjne',
+    en: 'Conference rooms',
+  },
+  office__8: {
+    ua: 'Кухня з обладнанням',
+    ru: 'Кухня с оборудованием',
+    pl: 'Kuchnia z wyposażeniem',
+    en: 'Kitchen with equipment',
+  },
+  office__9: {
+    ua: 'Послуги з прибирання',
+    ru: 'Услуги по уборке',
+    pl: 'Usługi sprzątające',
+    en: 'Cleaning services',
+  },
+  office__10: {
+    ua: 'Спортивні зали і душові кабіни',
+    ru: 'Спортивные залы и душевые кабины',
+    pl: 'Siłownie i prysznice',
+    en: 'Gyms and showers',
+  },
+  office__11: {
+    ua: 'зони відпочинку',
+    ru: 'зоны отдыха',
+    pl: 'tereny rekreacyjne',
+    en: 'recreation areas',
+  },
+  office__12: {
+    ua: 'Кафе або ресторан в будівлі',
+    ru: 'Кафе или ресторан в здании',
+    pl: 'Kawiarnia lub restauracja w budynku',
+    en: 'Cafe or restaurant in the building',
   },
   // відео презентація
   video: {
