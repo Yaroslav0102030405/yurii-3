@@ -130,14 +130,14 @@
   height: 775px;
   z-index: -1;
   background: linear-gradient(to right, #17182157, #4650683b),
-    url(/src/image/hero/bg-54.jpg);
+    url(/src/image/hero/bg-11.webp);
   background-repeat: no-repeat;
-  background-position: center top;
+  background-position: center center;
   background-size: cover;
   background-attachment: fixed;
 
   @media screen and (max-width: 580px) {
-    background-attachment: local;
+    // background-attachment: local;
     height: 930px;
   }
 }
