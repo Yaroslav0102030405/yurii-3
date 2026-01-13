@@ -25,6 +25,12 @@ const homeTexts = {
     pl: 'Agent nieruchomości',
     en: 'Real estate broker',
   },
+  header_logo1: {
+    ua: 'Real estate broker',
+    ru: 'Real estate broker',
+    pl: 'Real estate broker',
+    en: 'Real estate broker',
+  },
   header_logo2: {
     ua: 'Брокер з нерухомості',
     ru: 'Брокер по недвижимости',
@@ -103,10 +109,10 @@ const homeTexts = {
   },
   // my services
   'advantages_title-1': {
-    ua: 'Забудьте про перегляд сотень оголошень про оренду офісів. Більшість з них — неактуальні, або мають приховані недоліки: погана вентиляція, малий паркінг, слабкий інтернет. Я знаю ринок Варшави зсередини, тому відсіюю все зайве. Ви отримаєте 3–5 найкращих варіантів, які на 100% відповідають вашим вимогам',
-    ru: 'Забудьте о просмотре сотен объявлений об аренде офисов. Большинство из них – неактуальны, или имеют скрытые недостатки: плохая вентиляция, малый паркинг, слабый интернет. Я знаю рынок Варшавы изнутри, потому отсеиваю все лишнее. Вы получите 3–5 лучших вариантов, которые на 100% отвечают вашим требованиям',
-    pl: 'Zapomnij o przeglądaniu setek ogłoszeń wynajmu biur. Większość z nich jest nieistotna lub ma ukryte wady: słabą wentylację, mały parking, słaby internet. Znam warszawski rynek od podszewki, więc filtruję wszystko, co zbędne. Otrzymasz 3-5 najlepszych ofert, które w 100% spełnią Twoje wymagania',
-    en: 'Forget about browsing through hundreds of office rental ads. Most of them are irrelevant or have hidden flaws: poor ventilation, small parking, weak internet. I know the Warsaw market inside out, so I filter out everything unnecessary. You will get 3-5 best options that 100% meet your requirements',
+    ua: 'Забудьте про перегляд сотень оголошень на різних сайтах про оренду офісів. Більшість з них — неактуальні, або мають приховані недоліки: погана вентиляція та низька якість повітря, малий паркінг, слабкий інтернет, погана звукоізоляція, офісна будівля невідповідає стандартам BREEAM/LEED. Я знаю ринок Варшави зсередини, тому відсіюю все зайве. Ви отримаєте 3–5 найкращих варіантів, які на 100% відповідають вашим вимогам',
+    ru: 'Забудьте о просмотре сотен объявлений на разных сайтах об аренде офисов. Большинство из них — неактуальные или имеют скрытые недостатки: плохая вентиляция и низкое качество воздуха, малый паркинг, слабый интернет, плохая звукоизоляция, офисное здание не соответствует стандартам BREEAM/LEED. Я знаю рынок Варшавы изнутри, потому отсеиваю все лишнее. Вы получите 3–5 лучших вариантов, которые на 100% отвечают вашим требованиям',
+    pl: 'Zapomnij o przeglądaniu setek ogłoszeń na różnych stronach internetowych z ofertami wynajmu biur. Większość z nich jest nieistotna lub ma ukryte wady: słabą wentylację i niską jakość powietrza, mały parking, słaby internet, słabą izolację akustyczną, budynek biurowy niespełniający standardów BREEAM/LEED. Znam warszawski rynek od podszewki, więc odfiltrowuję wszystko, co zbędne. Otrzymasz 3-5 najlepszych ofert, które w 100% spełnią Twoje wymagania',
+    en: 'Forget about browsing hundreds of ads on various office rental websites. Most of them are irrelevant or have hidden flaws: poor ventilation and low air quality, small parking, weak internet, poor sound insulation, office building does not meet BREEAM/LEED standards. I know the Warsaw market inside out, so I filter out everything unnecessary. You will get 3-5 best options that 100% meet your requirements',
   },
   // my services
   'my-services_title-2': {
@@ -411,6 +417,24 @@ const homeTexts = {
     ru: 'Видеообзор: как может выглядеть ваш офис в Варшаве',
     pl: 'Recenzja wideo: jak mogłoby wyglądać Twoje biuro w Warszawie',
     en: 'Video review: what your office in Warsaw could look like',
+  },
+  video1: {
+    ua: 'Ви побачите інтер`єр офісу Varso Tower — в найвищому хмарочосі Варшави',
+    ru: 'Вы увидите интерьер офиса Varso Tower — в самом высоком небоскребе Варшавы',
+    pl: 'Zobaczysz wnętrze biura Varso Tower – najwyższego wieżowca w Warszawie',
+    en: 'You will see the interior of the Varso Tower office - in the tallest skyscraper in Warsaw',
+  },
+  video2: {
+    ua: 'Адаптований під потреби сучасної компанії: Панорамні краєвиди на місто, що надихає на великі звершення. Елегантна зона рецепції та комфортні локації для відпочинку. Сучасні open-space зони для працівників та ергономічні переговорні кімнати. Приватний кабінет керівника та представницький зал для нарад топменеджменту',
+    ru: 'Адаптированный под нужды современной компании: Панорамные виды на город, вдохновляющий большие свершения. Элегантная зона рецепции и комфортабельные локации для отдыха. Современные open-space зоны для работников и эргономичные переговорные комнаты. Частный кабинет руководителя и представительский зал для совещаний топ-менеджмента',
+    pl: 'Dostosowane do potrzeb nowoczesnej firmy: Panoramiczne widoki na miasto, inspirujące do osiągania sukcesów. Elegancka recepcja i komfortowe miejsca do relaksu. Nowoczesne przestrzenie typu open space dla pracowników i ergonomiczne sale konferencyjne. Prywatne biuro dla menedżera i reprezentacyjna sala na spotkania kadry zarządzającej',
+    en: 'Adapted to the needs of a modern company: Panoramic views of the city, inspiring great achievements. Elegant reception area and comfortable locations for relaxation. Modern open-space areas for employees and ergonomic meeting rooms. Private office for the manager and a representative room for top management meetings',
+  },
+  video3: {
+    ua: 'Весь офіс виконаний за індивідуальним замовленням «під ключ». Ідеальне поєднання естетики та функціональності',
+    ru: 'Весь офис выполнен по индивидуальному заказу «под ключ». Идеальное сочетание эстетики и функциональности',
+    pl: 'Całe biuro jest budowane na zamówienie i pod klucz. Idealne połączenie estetyki i funkcjonalności',
+    en: 'The entire office is custom-built on a turnkey basis. The perfect combination of aesthetics and functionality',
   },
   // мотиви обрати мене
   contacts_logo3: {
