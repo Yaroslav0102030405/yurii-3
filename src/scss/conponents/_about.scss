@@ -93,85 +93,85 @@
 // }
 
 // 1
-.slider {
-  margin-top: 30px;
-  width: 100%;
-  height: 100%;
-  margin-left: auto;
-  margin-right: auto;
-  overflow: hidden; /* Ховаємо все, що виходить за межі контейнера */
-  position: relative;
-  background: $bg-2;
-}
-
-.slide-track {
-  display: flex;
-  width: calc(
-    250px * 10
-  ); /* Ширина однієї фото (250px) помножена на кількість (10) */
-  animation: scrollRight 20s linear infinite; /* 20s - швидкість руху */
-  gap: 30px;
-}
-
-.slide-track2 {
-  display: flex;
-  width: calc(
-    250px * 10
-  ); /* Ширина однієї фото (250px) помножена на кількість (10) */
-  animation: scrollLeft 20s linear infinite; /* 20s - швидкість руху */
-  gap: 30px;
-}
-
-.slide {
-  width: 250px;
-  height: 100%;
-  display: flex;
-  align-items: center;
-
-  padding: 15px;
-
-  background-color: #0000;
-  background-image: linear-gradient(to right, #3e446457, #e4c9a23b),
-    url(/src/image/background/2aa.avif);
-  background-position: top;
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-attachment: scroll, scroll;
-  background-origin: padding-box, padding-box;
-  background-clip: border-box, border-box;
-  border: 1px solid #f8f9ff;
-  border-radius: 6px;
-  padding: 10px;
-}
-
-// .slide img {
+// .slider {
+//   margin-top: 30px;
 //   width: 100%;
-//   border-radius: 10px;
+//   height: 100%;
+//   margin-left: auto;
+//   margin-right: auto;
+//   overflow: hidden; /* Ховаємо все, що виходить за межі контейнера */
+//   position: relative;
+//   background: $bg-2;
 // }
 
-/* Анімація руху вправо */
-@keyframes scrollRight {
-  0% {
-    /* Починаємо з того, що перша частина зміщена вліво */
-    transform: translateX(calc(-250px * 5));
-  }
-  100% {
-    /* Рухаємося до нульової точки */
-    transform: translateX(0);
-  }
-}
+// .slide-track {
+//   display: flex;
+//   width: calc(
+//     280px * 12
+//   ); /* Ширина однієї фото (250px) помножена на кількість (10) */
+//   animation: scrollRight 40s linear infinite; /* 20s - швидкість руху */
+//   gap: 30px;
+// }
 
-/* Зупинка при наведенні мишкою (опціонально) */
-.slider:hover .slide-track {
-  animation-play-state: paused;
-}
+// .slide-track2 {
+//   display: flex;
+//   width: calc(
+//     280px * 12
+//   ); /* Ширина однієї фото (250px) помножена на кількість (10) */
+//   animation: scrollLeft 40s linear infinite; /* 20s - швидкість руху */
+//   gap: 30px;
+// }
 
-@keyframes scrollLeft {
-  0% {
-    transform: translateX(0);
-  }
-  100% {
-    /* Рух ліворуч — це від'ємне значення */
-    transform: translateX(calc(-250px * 5));
-  }
-}
+// .slide {
+//   width: 250px;
+//   height: 100%;
+//   display: flex;
+//   align-items: center;
+
+//   padding: 15px;
+
+//   background-color: #0000;
+//   background-image: linear-gradient(to right, #3e446457, #e4c9a23b),
+//     url(/src/image/background/2aa.avif);
+//   background-position: top;
+//   background-repeat: no-repeat;
+//   background-size: cover;
+//   background-attachment: scroll, scroll;
+//   background-origin: padding-box, padding-box;
+//   background-clip: border-box, border-box;
+//   border: 1px solid #f8f9ff;
+//   border-radius: 6px;
+//   padding: 10px;
+// }
+
+// // .slide img {
+// //   width: 100%;
+// //   border-radius: 10px;
+// // }
+
+// /* Анімація руху вправо */
+// @keyframes scrollRight {
+//   0% {
+//     /* Починаємо з того, що перша частина зміщена вліво */
+//     transform: translateX(calc(-280px * 6));
+//   }
+//   100% {
+//     /* Рухаємося до нульової точки */
+//     transform: translateX(0);
+//   }
+// }
+
+// /* Зупинка при наведенні мишкою (опціонально) */
+// .slider:hover .slide-track {
+//   animation-play-state: paused;
+// }
+
+// @keyframes scrollLeft {
+//   0% {
+//     transform: translateX(0);
+//   }
+//   100% {
+//     /* Рух ліворуч — це від'ємне значення */
+//     transform: translateX(calc(-280px * 6));
+//   }
+// }
