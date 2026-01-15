@@ -678,6 +678,24 @@ const homeTexts = {
     pl: 'Zrealizowane projekty',
     en: 'Implemented projects',
   },
+  'portfolio-title1': {
+    ua: 'Кейс, який я закрив для міжнародної компанії',
+    ru: 'Кейс, который я закрыл для международной компании',
+    pl: 'Sprawa, którą zamknąłem dla międzynarodowej firmy',
+    en: 'A case I closed for an international company',
+  },
+  'portfolio-title-1-2': {
+    ua: 'Вимоги: офіс в найвищому хмарочосі Варшави з ремонтом під компанію',
+    ru: 'Требования: офис в самом высоком небоскребе Варшавы с ремонтом под компанию',
+    pl: 'Wymagania: biuro w najwyższym wieżowcu w Warszawie z remontem dla firmy',
+    en: 'Requirements: office in the tallest skyscraper in Warsaw with renovation for the company',
+  },
+  'portfolio-title-1-3': {
+    ua: 'Міжнародна компанія задоволена!',
+    ru: 'Международная компания довольна!',
+    pl: 'Międzynarodowa firma jest zadowolona!',
+    en: 'The international company is satisfied!',
+  },
   'portfolio-title': {
     ua: 'Кейс, який я успішно закрив для іт-стартапу',
     ru: 'Кейс, который я успешно закрыл для ит-стартапа',
@@ -698,10 +716,10 @@ const homeTexts = {
   },
   // кейс 2
   'portfolio-title-21': {
-    ua: 'Кейс, який я успішно закрив для компанії',
-    ru: 'Кейс, который я успешно закрыл для компании',
-    pl: 'Sprawa, którą pomyślnie zamknąłem dla firmy',
-    en: 'A case I successfully closed for the company',
+    ua: 'Кейс, який я закрив для локальної компанії',
+    ru: 'Кейс, который я закрыл для локальной компании',
+    pl: 'Sprawa, którą zamknąłem dla lokalnej firmy',
+    en: 'A case I closed for a local company',
   },
   'portfolio-title-22': {
     ua: 'Вимоги: Офіс з меблями в діловому стилі',
