@@ -82,16 +82,16 @@ const homeTexts = {
   },
   // hero section
   'header_banner-pre-title': {
-    ua: 'Знайду ідеальний офіс в оренду у Варшаві для вашої компанії',
-    ru: 'Найду идеальный офис в аренду в Варшаве для вашей компании',
-    pl: 'Znajdę idealne biuro do wynajęcia w Warszawie dla Twojej firmy',
-    en: 'I will find the perfect office for rent in Warsaw for your company',
+    ua: 'Знайду ідеальний офіс в оренду у Варшаві для вашої міжнародної компанії',
+    ru: 'Найду идеальный офис в аренду в Варшаве для вашей международной компании',
+    pl: 'Znajdę idealne biuro do wynajęcia w Warszawie dla Twojej międzynarodowej firmy',
+    en: 'I will find the perfect office for rent in Warsaw for your international company',
   },
   'header_banner-pre-title-2': {
-    ua: '(локальної або міжнародної: від стартапу до корпорації)',
-    ru: '(локальной или международной: от стартапа к корпорации)',
-    pl: '(lokalny lub międzynarodowy: od startupu do korporacji)',
-    en: '(local or international: from startup to corporation)',
+    ua: 'від стартапу до корпорації',
+    ru: 'от стартапа до корпорации',
+    pl: 'od startupu do korporacji',
+    en: 'from startup to corporation',
   },
   // кнопка
   'header_banner-button': {
@@ -147,10 +147,10 @@ const homeTexts = {
     en: 'Offices in office buildings',
   },
   about_description02: {
-    ua: '- це окремі будівлі, які мають різні класи (A, B, C)',
-    ru: ' - Это отдельные здания, имеющие разные классы (A, B, C)',
-    pl: '- Są to oddzielne budynki posiadające różne klasy (A, B, C)',
-    en: '- These are separate buildings that have different classes (A, B, C)',
+    ua: '- це окремі будівлі, які мають клас A',
+    ru: ' - Это отдельные здания, имеющие класс A',
+    pl: '- są to pojedyncze budynki posiadające klasę A',
+    en: '- these are individual buildings that have class A',
   },
   about_description03: {
     ua: 'Розташовані по всьому місту у різних районах Варшави',
@@ -165,16 +165,16 @@ const homeTexts = {
     en: 'Features: Often offer a cabinet planning system',
   },
   about_description05: {
-    ua: 'Підходять: Малому та середньому бізнесу, локальним компаніям, яким важлива функціональність і паркінг',
-    ru: 'Подходят: Малому и среднему бизнесу, локальным компаниям, которым важна функциональность и паркинг',
-    pl: 'Odpowiednie dla: Małych i średnich przedsiębiorstw, lokalnych firm ceniących funkcjonalność i parking',
-    en: 'Suitable for: Small and medium businesses, local companies that value functionality and parking',
+    ua: 'Підходять: Малому та середньому бізнесу, яким важлива функціональність і паркінг',
+    ru: 'Подходят: Малому и среднему бизнесу, которым важна функциональность и паркинг',
+    pl: 'Odpowiednie dla: Małych i średnich przedsiębiorstw ceniących funkcjonalność i parking',
+    en: 'Suitable for: Small and medium-sized businesses that value functionality and parking',
   },
   about_description06: {
-    ua: 'Престиж: Низький/Середній/Високий',
-    ru: 'Престиж: Низкий/Средний/Высокий',
-    pl: 'Prestiż: niski/średni/wysoki',
-    en: 'Prestige: Low/Medium/High',
+    ua: 'Престиж: Середній',
+    ru: 'Престиж: Средний',
+    pl: 'Prestiż: średni',
+    en: 'Prestige: Medium',
   },
   about_description07: {
     ua: 'Ціна (м²) 12€ - 18€',
@@ -208,10 +208,10 @@ const homeTexts = {
     en: 'Located exclusively in the business center - Rondo ONZ, Rondo Daszyńskiego and along Emilii Plater Street. Features',
   },
   about_description0444: {
-    ua: 'Особливості: Панорамні краєвиди на місто, найвищий рівень безпеки та престижу',
-    ru: 'Особенности: Панорамные виды на город, высокий уровень безопасности и престижа',
-    pl: 'Cechy: Panoramiczny widok na miasto, najwyższy poziom bezpieczeństwa i prestiż',
-    en: 'Features: Panoramic views of the city, the highest level of security and prestige',
+    ua: 'Особливості: Панорамні краєвиди на місто, системи розпізнавання облич, охорона 24/7,  фітнес-клуби, конференц-холи, ресторани та системи клімат-контролю',
+    ru: 'Особенности: Панорамные виды на город, системы распознавания лиц, охрана 24/7, фитнес-клубы, конференц-холлы, рестораны и системы климат-контроля',
+    pl: 'Udogodnienia: Panoramiczny widok na miasto, systemy rozpoznawania twarzy, całodobowa ochrona, kluby fitness, sale konferencyjne, restauracje i systemy klimatyzacji',
+    en: 'Features: Panoramic city views, facial recognition systems, 24/7 security, fitness clubs, conference halls, restaurants, and climate control systems',
   },
   about_description0555: {
     ua: 'Для кого: Банки, юридичні фірми, великі консалтингові компанії, інвестиційні фонди',
@@ -414,9 +414,9 @@ const homeTexts = {
   // відео презентація
   video: {
     ua: 'Відеоогляд: як може виглядати ваш офіс у Варшаві',
-    ru: 'Видеообзор: как может выглядеть ваш офис в Варшаве',
-    pl: 'Recenzja wideo: jak mogłoby wyglądać Twoje biuro w Warszawie',
-    en: 'Video review: what your office in Warsaw could look like',
+    ru: 'Видео: как может выглядеть ваш офис в Варшаве',
+    pl: 'Wideo: jak mogłoby wyglądać Twoje biuro w Warszawie',
+    en: 'Video: what your office in Warsaw could look like',
   },
   video1: {
     ua: 'Ви побачите інтер`єр офісу Varso Tower — в найвищому хмарочосі Варшави',
@@ -445,10 +445,10 @@ const homeTexts = {
   },
   // про мене
   about_title: {
-    ua: 'Ваш партнер з нерухомості у Варшаві',
-    ru: 'Ваш партнер по недвижимости в Варшаве',
-    pl: 'Twój partner w nieruchomościach w Warszawie',
-    en: 'Your real estate partner in Warsaw',
+    ua: 'Я Ваш ексклюзивний представник на ринку комерційної нерухомості Варшави',
+    ru: 'Я ваш эксклюзивный представитель на рынке коммерческой недвижимости Варшавы',
+    pl: 'Jestem Państwa wyłącznym przedstawicielem na warszawskim rynku nieruchomości komercyjnych',
+    en: 'I am your exclusive representative on the Warsaw commercial real estate market',
   },
   // опис про мене
   about_description: {
@@ -458,10 +458,10 @@ const homeTexts = {
     en: 'Hello! My name is Yurii Bukhtii',
   },
   about_description2: {
-    ua: 'Брокер — що спеціалізується виключно на представленні інтересів міжнародного бізнесу на ринку комерційної нерухомості Польщі. Я не просто шукаю офіси — я забезпечую «м’яку посадку» вашого бізнесу, мінімізуючи ризики та оптимізуючи операційні витрати',
-    ru: 'Брокер — специализирующийся исключительно на представлении интересов международного бизнеса на рынке коммерческой недвижимости Польши. Я не просто ищу офисы — я обеспечиваю «мягкую посадку» вашего бизнеса, минимизируя риски и оптимизируя операционные расходы',
-    pl: 'Broker — specjalizujący się wyłącznie w reprezentowaniu interesów międzynarodowych firm na polskim rynku nieruchomości komercyjnych. Nie szukam tylko biur – zapewniam „miękkie lądowanie” dla Twojej firmy, minimalizując ryzyko i optymalizując koszty operacyjne',
-    en: 'Broker — specializing exclusively in representing the interests of international businesses in the Polish commercial real estate market. I don`t just look for offices - I ensure a "soft landing" for your business, minimizing risks and optimizing operating costs',
+    ua: 'Брокер — що спеціалізується виключно на представленні інтересів міжнародного бізнесу на ринку комерційної нерухомості Варшави. Я не просто шукаю офіси — я забезпечую «м’яку посадку» вашого бізнесу, мінімізуючи ризики та оптимізуючи операційні витрати',
+    ru: 'Брокер – специализирующийся исключительно на представлении интересов международного бизнеса на рынке коммерческой недвижимости Варшавы. Я не просто ищу офисы — я обеспечиваю «мягкую посадку» вашего бизнеса, минимизируя риски и оптимизируя операционные расходы',
+    pl: 'Broker – specjalizujący się wyłącznie w reprezentowaniu interesów międzynarodowych firm na warszawskim rynku nieruchomości komercyjnych. Nie szukam tylko biur – zapewniam „miękkie lądowanie” dla Twojej firmy, minimalizując ryzyko i optymalizując koszty operacyjne',
+    en: 'Broker - specializing exclusively in representing the interests of international businesses in the Warsaw commercial real estate market. I don`t just look for offices - I ensure a "soft landing" for your business, minimizing risks and optimizing operating costs',
   },
   about_description3: {
     ua: 'Чим я корисний?',
@@ -706,7 +706,7 @@ const homeTexts = {
     ua: 'Вимоги: сучасний офіс з меблями, в центрі міста в хмарочоці та з гарним виглядом з вікон на місто',
     ru: 'Требования: современный офис с мебелью, в центре города в небоскребе и с красивым видом из окон на город',
     pl: 'Wymagania: nowoczesne biuro z umeblowaniem, w centrum miasta, w wieżowcu, z pięknym widokiem na miasto z okien',
-    en: 'Requirements: modern office with furniture, in the city center in a skyscraper and with a beautiful view of the city from the windows',
+    en: 'Requirements: modern office with furniture, in the city center in a skyscraper and with a beautiful view from the windows',
   },
   'portfolio-title-3': {
     ua: 'Я виконав усі вимоги і іт компанія залишилась задоволена!',
@@ -736,9 +736,9 @@ const homeTexts = {
   // кейс 3
   'portfolio-title-31': {
     ua: 'Кейс, який я успішно закрив для корпорації',
-    ru: 'Кейс, который я успешно закрыл для канала YouTube',
-    pl: 'Sprawa, którą pomyślnie zamknąłem dla kanału YouTube',
-    en: 'A case I successfully closed for the YouTube channel',
+    ru: 'Кейс, который я успешно закрыл для корпорации',
+    pl: 'Sprawa, którą pomyślnie zamknąłem dla korporacji',
+    en: 'A case I successfully closed for a corporation',
   },
   'portfolio-title-32': {
     ua: 'Вимоги: Офіс з меблями та домашньою атмосферою',
@@ -773,22 +773,22 @@ const homeTexts = {
     en: 'The rental rate may be attractive, but operating costs and energy bills are often an unpleasant surprise?',
   },
   'questions-2': {
-    ua: 'Я надаю прозорий розрахунок усіх витрат ще до підписання договору оренди',
-    ru: 'Я предоставляю прозрачный расчет всех расходов еще до подписания договора аренды',
-    pl: 'Zapewniam przejrzyste wyliczenie wszystkich kosztów jeszcze przed podpisaniem umowy najmu',
-    en: 'I provide a transparent calculation of all costs even before signing the lease agreement',
+    ua: 'Я надам детальний Open Book розрахунок усіх витрат (Service Charge) ще до підписання договору. Ви отримаєте чіткий прогноз OPEX та CAPEX, що дозволить вашому фінансовому департаменту точно планувати бюджет без неочікуваних коригувань',
+    ru: 'Я предоставлю подробный Open Book расчет всех расходов (Service Charge) еще до подписания договора. Вы получите четкий прогноз OPEX и CAPEX, что позволит вашему финансовому департаменту точно планировать бюджет без неожиданных корректировок',
+    pl: 'Przed podpisaniem umowy przedstawię szczegółową kalkulację wszystkich kosztów (opłat serwisowych). Otrzymasz jasną prognozę wydatków operacyjnych (OPEX) i nakładów inwestycyjnych (CAPEX), która pozwoli Twojemu działowi finansowemu precyzyjnie zaplanować budżet bez nieoczekiwanych korekt',
+    en: 'I will provide a detailed Open Book calculation of all costs (Service Charge) before signing the contract. You will receive a clear forecast of OPEX and CAPEX, which will allow your finance department to accurately plan the budget without unexpected adjustments',
   },
   'questions-3': {
-    ua: 'Ми компанія і боїмося підписувати контракт на 5 років, якщо через рік нам може знадобитися вдвічі більше місця?',
-    ru: 'Мы компания и боимся подписывать контракт на пять лет, если через год нам может понадобиться вдвое больше места?',
-    pl: 'Jesteśmy firmą i boimy się podpisać umowę na 5 lat, skoro za rok możemy potrzebować dwa razy więcej powierzchni?',
-    en: 'We are a company and are afraid to sign a 5-year contract if in a year we may need twice as much space?',
+    ua: 'Як глобальна компанія, ми не можемо ризикувати з 5-річним контрактом, якщо через рік нам знадобиться вдвічі більше місця?',
+    ru: 'Как глобальная компания мы не можем рисковать с 5-летним контрактом, если через год нам понадобится вдвое больше места?',
+    pl: 'Jako firma globalna nie możemy ryzykować pięcioletniego kontraktu, jeśli w ciągu roku będziemy potrzebować dwa razy więcej przestrzeni?',
+    en: 'As a global company, we can`t risk a 5-year contract if we need twice as much space in a year?',
   },
   'questions-4': {
-    ua: 'Є можливість розширення офісу в межах однієї будівлі або гнучкі терміни оренди',
-    ru: 'Есть возможность расширения офиса в пределах одного здания или гибкие сроки аренды',
-    pl: 'Czy istnieje możliwość powiększenia biura w tym samym budynku lub elastyczne warunki najmu',
-    en: 'Is there a possibility of expanding the office within the same building or flexible lease terms',
+    ua: 'Я заздалегідь прописую в договорі права на розширення (Expansion Rights) або право першої відмови (Right of First Refusal) на сусідні площі. Також можливі опції перегляду термінів (Break Option), що дає вам мобільність корпоративного рівня',
+    ru: 'Я заранее прописываю в договоре права на расширение (Expansion Rights) или право первого отказа (Right of First Refusal) на соседние площади. Также возможны опции просмотра терминов (Break Option), что дает вам мобильность корпоративного уровня',
+    pl: 'W umowie wstępnie ustalam prawa ekspansji lub prawa pierwokupu dla sąsiednich powierzchni. Możliwe są również opcje zerwania umowy, co zapewnia mobilność na poziomie korporacyjnym',
+    en: 'I pre-write Expansion Rights or Right of First Refusal for adjacent spaces in the contract. Break Options are also possible, giving you corporate-level mobility',
   },
   'questions-5': {
     ua: 'Ми малий бізнес і нас великі фонди не будуть слухати або нав`яжуть невигідні умови?',
@@ -803,40 +803,40 @@ const homeTexts = {
     en: 'I am your strong voice in negotiations. I will negotiate conditions that only corporations usually get',
   },
   'questions-7': {
-    ua: 'Потрібно, щоб співробітникам було зручно добиратися (метро, трамваї), а поруч були недорогі ланч-кафе?',
+    ua: 'Нам важливо, щоб офіс був зручним для співробітників (метро, транспорт) та мав розвинену інфраструктуру (ланч-кафе) навколо?',
     ru: 'Нужно, чтобы сотрудникам было удобно добираться (метро, ​​трамваи), а рядом были недорогие ланч-кафе?',
     pl: 'Potrzebujesz wygodnego transportu dla pracowników (metro, tramwaje) i niedrogich kawiarni w pobliżu?',
     en: 'Do you need employees to have convenient transportation (metro, trams), and inexpensive lunch cafes nearby?',
   },
   'questions-8': {
-    ua: 'Я підберу офіс в районах зі зручною логістикою (Mokotów, Wola, Ochota) та розвиненою інфраструктурою',
-    ru: 'Я подберу офис в районах с удобной логистикой (Mokotów, Wola, Ochota) и развитой инфраструктурой',
-    pl: 'Wybiorę biuro w lokalizacjach z dogodną logistyką (Mokotów, Wola, Ochota) i rozwiniętą infrastrukturą',
-    en: 'I will choose an office in areas with convenient logistics (Mokotów, Wola, Ochota) and developed infrastructure',
+    ua: 'Я фокусуюсь на ключових бізнес-хабах Варшави — Wola, Mokotów, Ochota. Підбір здійснюється за критерієм «15-хвилинного міста», де транспортні розв’язки та якісні заклади харчування є невід’ємною частиною локації',
+    ru: 'Я фокусируюсь на ключевых бизнес-хабах Варшавы — Wola, Mokotów, Ochota. Подбор осуществляется по критерию «15-минутного города», где транспортные развязки и качественные заведения питания являются неотъемлемой частью локации',
+    pl: 'Koncentruję się na kluczowych centrach biznesowych Warszawy – Woli, Mokotowie i Ochocie. Wybór opiera się na kryterium „miasta 15 minut”, gdzie węzły komunikacyjne i wysokiej jakości restauracje stanowią integralną część lokalizacji',
+    en: 'I focus on key business hubs in Warsaw — Wola, Mokotów, Ochota. The selection is based on the “15-minute city” criterion, where transport interchanges and quality restaurants are an integral part of the location',
   },
   'questions-9': {
-    ua: 'Польське законодавство (VAT, індексація орендної плати, вимоги BHP) незрозуміло для нашого головного офісу в Лондоні?',
-    ru: 'Польское законодательство (VAT, индексация арендной платы, требования BHP) непонятно для нашего головного офиса в Лондоне?',
-    pl: 'Polskie przepisy (VAT, indeksacja czynszów, wymogi BHP) są niejasne dla naszej centrali w Londynie?',
-    en: 'Polish legislation (VAT, rent indexation, BHP requirements) is unclear to our head office in London?',
+    ua: 'Польське законодавство (VAT, індексація, вимоги BHP) є складним для розуміння нашого головного офісу в Лондоні?',
+    ru: 'Польское законодательство (VAT, индексация, требования BHP) является сложным для понимания нашего головного офиса в Лондоне?',
+    pl: 'Polskie przepisy (VAT, indeksacja, wymogi BHP) są dla naszej centrali w Londynie trudne do zrozumienia?',
+    en: 'Polish legislation (VAT, indexation, BHP requirements) is difficult for our head office in London to understand?',
   },
   'questions-10': {
-    ua: 'Я надаю повний юридичний супровід та договори англійською мовою, що відповідають міжнародним стандартам',
-    ru: 'Я предоставляю полное юридическое сопровождение и договоры на английском языке, соответствующие международным стандартам',
-    pl: 'Zapewniam pełne wsparcie prawne i umowy w języku angielskim, zgodne z międzynarodowymi standardami',
-    en: 'I provide full legal support and contracts in English that meet international standards',
+    ua: 'Весь процес супроводжується документацією англійською мовою, що відповідає міжнародним стандартам. Я адаптую договор під внутрішні вимоги вашого юридичного департаменту, роз’ясню кожен пункт — від індексації за європейськими індексами (HICP) до локальних норм охорони праці',
+    ru: 'Весь процесс сопровождается документацией на английском языке, отвечающей международным стандартам. Я адаптирую договор во внутренние требования вашего юридического департамента, разъясню каждый пункт — от индексации по европейским индексам (HICP) до локальных норм охраны труда',
+    pl: 'Całemu procesowi towarzyszy dokumentacja w języku angielskim, spełniająca międzynarodowe standardy. Dostosuję umowę do wewnętrznych wymagań Twojego działu prawnego, wyjaśniając każdy punkt – od indeksacji, przez wskaźniki europejskie (HICP), po lokalne normy ochrony pracy',
+    en: 'The entire process is accompanied by documentation in English that meets international standards. I will adapt the contract to the internal requirements of your legal department, explaining every point - from indexation to European indices (HICP) to local labor protection standards',
   },
   'questions-11': {
-    ua: 'Ми глобальна корпорація і нам треба орендувати офіс з сертифікатами BREEAM або LEED?',
-    ru: 'Мы глобальная корпорация, и нам нужно арендовать офис с сертификатами BREEAM или LEED?',
-    pl: 'Jesteśmy globalną korporacją i potrzebujemy wynająć biuro z certyfikatami BREEAM lub LEED?',
-    en: 'We are a global corporation and need to rent an office with BREEAM or LEED certificates?',
+    ua: 'Наша корпоративна політика вимагає, щоб офіс мав сертифікати BREEAM або LEED?',
+    ru: 'Наша корпоративная политика требует, чтобы офис имел сертификаты BREEAM или LEED?',
+    pl: 'Polityka naszej firmy wymaga, aby biuro posiadało certyfikaty BREEAM lub LEED?',
+    en: 'Our corporate policy requires the office to have BREEAM or LEED certifications?',
   },
   'questions-12': {
-    ua: 'Я підберу офіс у будівлях класу А з високим рейтингом енергоефективності та екологічними сертифікатами',
-    ru: 'Я подберу офис в зданиях класса А с высоким рейтингом энергоэффективности и экологическими сертификатами',
-    pl: 'Wybiorę biuro w budynkach klasy A z wysokimi wskaźnikami efektywności energetycznej i certyfikatami środowiskowymi',
-    en: 'I will choose an office in class A buildings with high energy efficiency ratings and environmental certificates',
+    ua: 'Я спеціалізуюсь на об`єктах класу А, що мають рейтинги Excellent або Outstanding. Це не лише питання престижу та ESG-звітності, а й реальна економія на комунальних послугах завдяки енергоефективним технологіям',
+    ru: 'Я специализируюсь на объектах класса А, имеющих рейтинги Excellent или Outstanding. Это не только вопрос престижа и ESG-отчетности, но и реальная экономия на коммунальных услугах благодаря энергоэффективным технологиям',
+    pl: 'Specjalizuję się w nieruchomościach klasy A z ocenami Excellent lub Outstanding. Nie chodzi mi tylko o prestiż i raportowanie ESG, ale także o realne oszczędności w opłatach za media dzięki technologiom energooszczędnym',
+    en: 'I specialize in Class A properties with Excellent or Outstanding ratings. It`s not just about prestige and ESG reporting, but also about real savings on utilities through energy-efficient technologies',
   },
   // екекекек
   'header_banner-name': {
